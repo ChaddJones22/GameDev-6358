@@ -6,13 +6,18 @@ public class Player_Movement : MonoBehaviour
 {
     public Player_Inputs playerInputs;
     public Rigidbody2D playerRB;
+    public Transform BulletSpawn;
     public GameObject Bullet;
     public float speedMulti;
     public float jumpForce;
     public float[] attackCD;
     public bool canJump;
     public float shotgunForce;
-    public float launcheAngle;
+    public float launchAngle;
+    public bool faceRight;
+    public Vector2 spawnDireciton;
+    
+    
 
     // Start is called before the first frame update
     void Start()
@@ -23,6 +28,7 @@ public class Player_Movement : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
+        angleCalculation();
         jump();
         if(playerInputs.shoot)
         {
@@ -38,6 +44,18 @@ public class Player_Movement : MonoBehaviour
             StopCoroutine("shootCD");
         }
         
+        if(launchAngle>90 || launchAngle<-90)
+        {
+            this.transform.transform.eulerAngles = new Vector3(0, 180, 0);
+            faceRight = false;
+        }
+        else
+        {
+
+            this.transform.eulerAngles = new Vector3(0, 0, 0);
+            faceRight = true;
+        }
+        
     }
     
     void FixedUpdate()
@@ -49,8 +67,14 @@ public class Player_Movement : MonoBehaviour
     //funciton to control move
     private void move()
     {
-        
-        playerRB.transform.Translate(Vector3.right * playerInputs.xInput * speedMulti * Time.deltaTime);
+        if(!faceRight)
+        {
+            playerRB.transform.Translate(Vector3.right * -playerInputs.xInput * speedMulti * Time.deltaTime);
+        }
+        else
+        {
+            playerRB.transform.Translate(Vector3.right * playerInputs.xInput * speedMulti * Time.deltaTime);
+        }
 
     }
 
@@ -74,6 +98,13 @@ public class Player_Movement : MonoBehaviour
         }
     }
 
+    public void angleCalculation()
+    {
+        spawnDireciton = playerInputs.crosshair.transform.position - BulletSpawn.position;
+        launchAngle = Vector2.SignedAngle(Vector2.right, spawnDireciton);
+    }
+
+
     IEnumerator shootCD()
     {
         playerInputs.CoolDown = true;
@@ -83,30 +114,43 @@ public class Player_Movement : MonoBehaviour
             default:
                 {
                     //spawn bullet facing the crosshair
-                    Vector2 spawnDireciton = playerInputs.crosshair.transform.position - this.transform.position;
-                    float angle = Mathf.Atan2(spawnDireciton.y, spawnDireciton.x) * Mathf.Rad2Deg;
-                    GameObject spawned = Instantiate(Bullet, transform.position, transform.rotation);
+                    float angle;
+                    if(!faceRight)
+                    {
+                        angle = Mathf.Atan2(-spawnDireciton.y, -spawnDireciton.x) * Mathf.Rad2Deg;
+                    }
+                    else
+                    {
+                        angle = Mathf.Atan2(spawnDireciton.y, spawnDireciton.x) * Mathf.Rad2Deg;
+                    }
+                    GameObject spawned = Instantiate(Bullet, BulletSpawn.position, transform.rotation);
                     spawned.GetComponent<Rigidbody2D>().rotation = angle;
                     break;
                 }
             case 2:
                 {
                     //spawn bullet facing the crosshair
-                    Vector2 spawnDireciton = playerInputs.crosshair.transform.position - this.transform.position;
-                    float angle = Mathf.Atan2(spawnDireciton.y, spawnDireciton.x) * Mathf.Rad2Deg;
 
+                    float angle;
+                    if (!faceRight)
+                    {
+                        angle = Mathf.Atan2(-spawnDireciton.y, -spawnDireciton.x) * Mathf.Rad2Deg;
+                    }
+                    else
+                    {
+                        angle = Mathf.Atan2(spawnDireciton.y, spawnDireciton.x) * Mathf.Rad2Deg;
+                    }
                     //spawn 6 bullets with randomize angle facing crosshair
                     for (int x=0;x<7;x++)
                     {
-                        GameObject spawned = Instantiate(Bullet, transform.position, transform.rotation);
+                        GameObject spawned = Instantiate(Bullet, BulletSpawn.position, transform.rotation);
                         spawned.GetComponent<Rigidbody2D>().rotation = angle + (Random.Range(-10f, 10f));
                     }
 
 
                     //Math to find the direction of shotguns recoil
-                    launcheAngle = Vector2.SignedAngle(Vector2.right, spawnDireciton);
-                    float launchx = Mathf.Cos(launcheAngle * Mathf.PI / 180) * shotgunForce;
-                    float launchy = Mathf.Sin(launcheAngle * Mathf.PI / 180) * shotgunForce;
+                    float launchx = Mathf.Cos(launchAngle * Mathf.PI / 180) * shotgunForce;
+                    float launchy = Mathf.Sin(launchAngle * Mathf.PI / 180) * shotgunForce;
                     playerRB.AddForce(new Vector2(launchx, launchy)*-1, ForceMode2D.Impulse);
                     break;
                 }         
