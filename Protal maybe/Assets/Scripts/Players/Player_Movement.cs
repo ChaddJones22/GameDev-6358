@@ -15,6 +15,8 @@ public class Player_Movement : MonoBehaviour
     public float shotgunForce;
     public float launchAngle;
     public bool faceRight;
+    public bool shooting;
+    public bool moving;
     public Vector2 spawnDireciton;
     
     
@@ -41,12 +43,14 @@ public class Player_Movement : MonoBehaviour
             playerInputs.shoot = false;
             playerInputs.CoolDown = false;
             playerInputs.checkSwap = false;
+            shooting = false;
             StopCoroutine("shootCD");
         }
         
         if(launchAngle>90 || launchAngle<-90)
         {
             this.transform.transform.eulerAngles = new Vector3(0, 180, 0);
+           
             faceRight = false;
         }
         else
@@ -55,7 +59,15 @@ public class Player_Movement : MonoBehaviour
             this.transform.eulerAngles = new Vector3(0, 0, 0);
             faceRight = true;
         }
-        
+     
+        if(playerInputs.xInput!=0)
+        {
+            moving = true;
+        }
+        else
+        {
+            moving = false;
+        }
     }
     
     void FixedUpdate()
@@ -70,10 +82,12 @@ public class Player_Movement : MonoBehaviour
         if(!faceRight)
         {
             playerRB.transform.Translate(Vector3.right * -playerInputs.xInput * speedMulti * Time.deltaTime);
+            
         }
         else
         {
             playerRB.transform.Translate(Vector3.right * playerInputs.xInput * speedMulti * Time.deltaTime);
+            
         }
 
     }
@@ -108,7 +122,7 @@ public class Player_Movement : MonoBehaviour
     IEnumerator shootCD()
     {
         playerInputs.CoolDown = true;
-
+        shooting = true;
         switch (playerInputs.equipNum)
         {
             default:
@@ -147,16 +161,18 @@ public class Player_Movement : MonoBehaviour
                         spawned.GetComponent<Rigidbody2D>().rotation = angle + (Random.Range(-10f, 10f));
                     }
 
-
                     //Math to find the direction of shotguns recoil
                     float launchx = Mathf.Cos(launchAngle * Mathf.PI / 180) * shotgunForce;
                     float launchy = Mathf.Sin(launchAngle * Mathf.PI / 180) * shotgunForce;
                     playerRB.AddForce(new Vector2(launchx, launchy)*-1, ForceMode2D.Impulse);
+                    
                     break;
                 }         
         }
+        
         yield return new WaitForSeconds(attackCD[playerInputs.equipNum-1]);
         playerInputs.CoolDown = false;
+        shooting = false;
         yield return 0;
     }
 }

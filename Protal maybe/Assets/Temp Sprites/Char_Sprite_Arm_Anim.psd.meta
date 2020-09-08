@@ -1,16 +1,16 @@
 fileFormatVersion: 2
-guid: f98b8c68052c3a04b8c164ae5e8dac51
+guid: 3f007795e56c1a54db35b41a8e7e68a4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7546459999502843598
-    second: Char_Sprite_Arm_0
+      213: -8186627197580024567
+    second: Char_Sprite_Arm_Anim_0
   - first:
-      213: -7857434862004105676
-    second: Char_Sprite_Arm_1
+      213: -6753835029082582694
+    second: Char_Sprite_Arm_Anim_1
   - first:
-      213: -5794523098400580465
-    second: Char_Sprite_Arm_2
+      213: -7251509192415866270
+    second: Char_Sprite_Arm_Anim_2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -57,7 +57,7 @@ TextureImporter:
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 20
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 1
+  spriteGenerateFallbackPhysicsShape: 0
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -87,7 +87,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -98,7 +98,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Char_Sprite_Arm_0
+      name: Char_Sprite_Arm_Anim_0
       rect:
         serializedVersion: 2
         x: 0
@@ -112,14 +112,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 23140f10d96954790800000000000000
-      internalID: -7546459999502843598
+      spriteID: 905e0bb30f1436e80800000000000000
+      internalID: -8186627197580024567
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Char_Sprite_Arm_1
+      name: Char_Sprite_Arm_Anim_1
       rect:
         serializedVersion: 2
         x: 32
@@ -133,14 +133,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 43e897c9f98c4f290800000000000000
-      internalID: -7857434862004105676
+      spriteID: a5151fb03de8542a0800000000000000
+      internalID: -6753835029082582694
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Char_Sprite_Arm_2
+      name: Char_Sprite_Arm_Anim_2
       rect:
         serializedVersion: 2
         x: 64
@@ -154,8 +154,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8c990551f7b59fa0800000000000000
-      internalID: -5794523098400580465
+      spriteID: 26292944fc67d5b90800000000000000
+      internalID: -7251509192415866270
       vertices: []
       indices: 
       edges: []
