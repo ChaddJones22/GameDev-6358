@@ -13,13 +13,13 @@ public class Player_Inputs : MonoBehaviour
 
     public bool CoolDown;
     public bool checkSwap;
-    private int storedEquip;
+    public int storedEquip;
     // Start is called before the first frame update
     void Start()
     {
         cam=GameObject.FindGameObjectWithTag("MainCamera").gameObject.GetComponent<Camera>();
         Cursor.visible = false;
-        equipNum = 1;
+        equipNum = 0;
         storedEquip = equipNum;
     }
 
@@ -64,6 +64,11 @@ public class Player_Inputs : MonoBehaviour
                     {
                         shoot = true;
                     }
+                    break;
+                }
+
+            case 0:
+                {
                     break;
                 }
         }

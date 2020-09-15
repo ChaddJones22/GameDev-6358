@@ -18,8 +18,8 @@ public class Player_Movement : MonoBehaviour
     public bool shooting;
     public bool moving;
     public Vector2 spawnDireciton;
-    
-    
+
+    private bool[] hasGun=new bool[3] { false, false, false };
 
     // Start is called before the first frame update
     void Start()
@@ -30,7 +30,8 @@ public class Player_Movement : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-        angleCalculation();
+        equipCheck();
+        angleCalculation();       
         jump();
         if(playerInputs.shoot)
         {
@@ -76,7 +77,7 @@ public class Player_Movement : MonoBehaviour
     }
 
 
-    //funciton to control move
+    //funciton to control move\\
     private void move()
     {
         if(!faceRight)
@@ -103,6 +104,33 @@ public class Player_Movement : MonoBehaviour
         }
     }
 
+    //Checks if gun has been picked up\\
+    private void equipCheck()
+    {
+        if(playerInputs.equipNum!=0)
+        {
+            if (!hasGun[playerInputs.equipNum - 1])
+            {
+                playerInputs.equipNum = playerInputs.storedEquip ;
+            }
+        } 
+    }
+
+    //Function To Register Wep Into Inv\\
+    public void pickUpWep(int gunID)
+    {
+        hasGun[gunID] = true;
+    }
+
+    //Clear Picked Up Wep if we have multiple stage per scene\\
+    public void clearWep()
+    {
+        for(int x=0;x<hasGun.Length;x++)
+        {
+            hasGun[x] = false;
+        }
+    }
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
         //checks if player has landed to jump agian
@@ -117,6 +145,8 @@ public class Player_Movement : MonoBehaviour
         spawnDireciton = playerInputs.crosshair.transform.position - BulletSpawn.position;
         launchAngle = Vector2.SignedAngle(Vector2.right, spawnDireciton);
     }
+
+    
 
 
     IEnumerator shootCD()
