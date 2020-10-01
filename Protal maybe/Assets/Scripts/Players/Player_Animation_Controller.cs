@@ -17,5 +17,8 @@ public class Player_Animation_Controller : MonoBehaviour
     void Update()
     {
         anim.SetBool("isMoving", player.moving);
+        anim.SetBool("isJumping", player.isRising);
+        anim.SetBool("Grounded", player.canJump);
+        anim.SetBool("movingBackwards", player.movingBackwards);
     }
 }

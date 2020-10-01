@@ -8,7 +8,6 @@ public class Player_Movement : MonoBehaviour
     public Rigidbody2D playerRB;
     public Transform BulletSpawn;
     public GameObject Bullet;
-    public float speedMulti;
     public float jumpForce;
     public float[] attackCD;
     public bool canJump;
@@ -17,9 +16,15 @@ public class Player_Movement : MonoBehaviour
     public bool faceRight;
     public bool shooting;
     public bool moving;
+    public bool movingBackwards;
+    public bool isRising;
+    public int speedForward;
+    public int speedBackward;
     public Vector2 spawnDireciton;
+ 
 
     private bool[] hasGun=new bool[3] { false, false, false };
+    private float speedMulti;
 
     // Start is called before the first frame update
     void Start()
@@ -33,6 +38,26 @@ public class Player_Movement : MonoBehaviour
         equipCheck();
         angleCalculation();       
         jump();
+        if(playerRB.velocity.y!=0)
+        {
+            
+            if (playerRB.velocity.y>0)
+            {
+              
+                isRising = true;
+            }
+            else if(playerRB.velocity.y < 0)
+            {
+                isRising = false;
+            }
+            
+        }
+        
+        if(canJump)
+        {
+            isRising = false;
+        }
+
         if(playerInputs.shoot)
         {
             playerInputs.shoot = false;
@@ -82,12 +107,33 @@ public class Player_Movement : MonoBehaviour
     {
         if(!faceRight)
         {
+            if (playerInputs.xInput > 0)
+            {
+                movingBackwards = true;
+                speedMulti =speedBackward;
+            }
+            else
+            {
+                movingBackwards = false;
+                speedMulti = speedForward;
+            }
             playerRB.transform.Translate(Vector3.right * -playerInputs.xInput * speedMulti * Time.deltaTime);
             
         }
         else
         {
+            if (playerInputs.xInput > 0)
+            {
+                movingBackwards = false;
+                speedMulti = speedForward;
+            }
+            else
+            {
+                movingBackwards = true;
+                speedMulti = speedBackward;
+            }
             playerRB.transform.Translate(Vector3.right * playerInputs.xInput * speedMulti * Time.deltaTime);
+
             
         }
 
@@ -131,7 +177,7 @@ public class Player_Movement : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnCollisionStay2D(Collision2D collision)
     {
         //checks if player has landed to jump agian
         if(collision.gameObject.tag=="Ground")
@@ -140,6 +186,14 @@ public class Player_Movement : MonoBehaviour
         }
     }
 
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        //checks if player has landed to jump agian
+        if (collision.gameObject.tag == "Ground")
+        {
+            canJump = false;
+        }
+    }
     public void angleCalculation()
     {
         spawnDireciton = playerInputs.crosshair.transform.position - BulletSpawn.position;
