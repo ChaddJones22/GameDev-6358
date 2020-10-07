@@ -29,10 +29,10 @@ AnimationClip:
       value: {fileID: -7251509192415866270, guid: 3f007795e56c1a54db35b41a8e7e68a4,
         type: 3}
     - time: 0.16666667
-      value: {fileID: -8186627197580024567, guid: 3f007795e56c1a54db35b41a8e7e68a4,
+      value: {fileID: -7251509192415866270, guid: 3f007795e56c1a54db35b41a8e7e68a4,
         type: 3}
     attribute: m_Sprite
-    path: Char_Sprite_Arm
+    path: Pistol/Char_Sprite_Arm
     classID: 212
     script: {fileID: 0}
   m_SampleRate: 60
@@ -43,7 +43,7 @@ AnimationClip:
   m_ClipBindingConstant:
     genericBindings:
     - serializedVersion: 2
-      path: 470130323
+      path: 1175868117
       attribute: 0
       script: {fileID: 0}
       typeID: 212
@@ -53,7 +53,7 @@ AnimationClip:
     - {fileID: -8186627197580024567, guid: 3f007795e56c1a54db35b41a8e7e68a4, type: 3}
     - {fileID: -6753835029082582694, guid: 3f007795e56c1a54db35b41a8e7e68a4, type: 3}
     - {fileID: -7251509192415866270, guid: 3f007795e56c1a54db35b41a8e7e68a4, type: 3}
-    - {fileID: -8186627197580024567, guid: 3f007795e56c1a54db35b41a8e7e68a4, type: 3}
+    - {fileID: -7251509192415866270, guid: 3f007795e56c1a54db35b41a8e7e68a4, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
@@ -78,11 +78,4 @@ AnimationClip:
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
-  m_Events:
-  - time: 0.16666667
-    functionName: stopShoot
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 0
+  m_Events: []

@@ -6,6 +6,7 @@ public class Bullets_Movement : MonoBehaviour
 {
     public Rigidbody2D bulletRB;
     public float speedMulti;
+    public GameObject impact;
     // Start is called before the first frame update
     public bool lifeOver;
     void OnEnable()
@@ -22,6 +23,21 @@ public class Bullets_Movement : MonoBehaviour
         {
             GameObject.Destroy(this.gameObject);
         }
+    }
+
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.tag=="Bullet" || collision.tag=="Weapons")
+        {
+            return;
+        }
+        else
+        {
+            Instantiate(impact, this.transform.position, this.transform.rotation);
+            StopCoroutine("delete");
+            Destroy(this.gameObject);
+        }
+        
     }
 
     //changes bool to kill bullets after 5sec;

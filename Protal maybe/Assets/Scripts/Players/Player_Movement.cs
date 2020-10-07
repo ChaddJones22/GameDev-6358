@@ -177,6 +177,11 @@ public class Player_Movement : MonoBehaviour
         }
     }
 
+    public bool wepInInv(int gunID)
+    {
+        return (hasGun[gunID]);
+    }
+
     private void OnCollisionStay2D(Collision2D collision)
     {
         //checks if player has landed to jump agian
@@ -200,7 +205,11 @@ public class Player_Movement : MonoBehaviour
         launchAngle = Vector2.SignedAngle(Vector2.right, spawnDireciton);
     }
 
-    
+    public int getEquipedWeapon()
+    {
+        return playerInputs.equipNum;
+    }
+
 
 
     IEnumerator shootCD()
@@ -215,14 +224,14 @@ public class Player_Movement : MonoBehaviour
                     float angle;
                     if(!faceRight)
                     {
-                        angle = Mathf.Atan2(-spawnDireciton.y, -spawnDireciton.x) * Mathf.Rad2Deg;
+                        angle = Mathf.Atan2(spawnDireciton.y, -spawnDireciton.x ) * Mathf.Rad2Deg;
                     }
                     else
                     {
                         angle = Mathf.Atan2(spawnDireciton.y, spawnDireciton.x) * Mathf.Rad2Deg;
                     }
-                    GameObject spawned = Instantiate(Bullet, BulletSpawn.position, transform.rotation);
-                    spawned.GetComponent<Rigidbody2D>().rotation = angle;
+                    GameObject spawned = Instantiate(Bullet, BulletSpawn.position, transform.rotation * Quaternion.Euler(0f, 0f, angle));
+                    //spawned.GetComponent<Rigidbody2D>().rotation = angle;
                     break;
                 }
             case 2:
@@ -232,7 +241,7 @@ public class Player_Movement : MonoBehaviour
                     float angle;
                     if (!faceRight)
                     {
-                        angle = Mathf.Atan2(-spawnDireciton.y, -spawnDireciton.x) * Mathf.Rad2Deg;
+                        angle = Mathf.Atan2(spawnDireciton.y, -spawnDireciton.x) * Mathf.Rad2Deg;
                     }
                     else
                     {
@@ -241,8 +250,8 @@ public class Player_Movement : MonoBehaviour
                     //spawn 6 bullets with randomize angle facing crosshair
                     for (int x=0;x<7;x++)
                     {
-                        GameObject spawned = Instantiate(Bullet, BulletSpawn.position, transform.rotation);
-                        spawned.GetComponent<Rigidbody2D>().rotation = angle + (Random.Range(-10f, 10f));
+                        GameObject spawned = Instantiate(Bullet, BulletSpawn.position, transform.rotation * Quaternion.Euler(0f, 0f, angle+ Random.Range(-10f, 10f)));
+                        //spawned.GetComponent<Rigidbody2D>().rotation = angle + (Random.Range(-10f, 10f));
                     }
 
                     //Math to find the direction of shotguns recoil
