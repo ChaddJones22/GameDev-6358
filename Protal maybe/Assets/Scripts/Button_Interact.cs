@@ -15,4 +15,10 @@ public class Button_Interact : MonoBehaviour
     {
         
     }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Bullet")
+            Debug.Log("Contact");
+    }
 }
