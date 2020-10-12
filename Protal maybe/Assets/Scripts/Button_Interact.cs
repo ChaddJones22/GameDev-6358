@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Button_Interact : MonoBehaviour
 {
+
+    public GameObject ConnectedEvent;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,6 +21,10 @@ public class Button_Interact : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Bullet")
+        {
             Debug.Log("Contact");
+            ConnectedEvent.GetComponent<BaseEvent>().ActivateEvent();
+        }
+            
     }
 }
