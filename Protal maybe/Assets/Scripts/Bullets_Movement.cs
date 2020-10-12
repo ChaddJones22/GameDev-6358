@@ -13,18 +13,26 @@ public class Bullets_Movement : MonoBehaviour
     {
         //Start the bullet clearing on spawn
         StartCoroutine("delete");
+        bulletRB.AddForce(transform.right * speedMulti, ForceMode2D.Impulse);
     }
 
     // Update is called once per frame
     void Update()
     {
-        bulletRB.transform.Translate(Vector3.right * speedMulti*Time.deltaTime);
-        if(lifeOver)
+        //bulletRB.transform.Translate(Vector3.right * speedMulti * Time.deltaTime);
+        if (lifeOver)
         {
             GameObject.Destroy(this.gameObject);
         }
     }
 
+
+    void FixedUpdate()
+    {
+        
+    }
+
+    /*
     void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.tag=="Bullet" || collision.tag=="Weapons")
@@ -38,6 +46,20 @@ public class Bullets_Movement : MonoBehaviour
             Destroy(this.gameObject);
         }
         
+    }
+    */
+    void OnCollisionEnter2D(Collision2D col)
+    {
+        if (col.gameObject.tag == "Bullet" || col.gameObject.tag == "Weapons" || col.gameObject.tag=="Player")
+        {
+            return;
+        }
+        else
+        {
+            StopCoroutine("delete");
+            Instantiate(impact, this.transform.position, this.transform.rotation);
+            Destroy(this.gameObject);
+        }
     }
 
     //changes bool to kill bullets after 5sec;
