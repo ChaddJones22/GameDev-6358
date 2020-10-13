@@ -175,6 +175,7 @@ Transform:
   - {fileID: 485940389}
   - {fileID: 712875377}
   - {fileID: 462041885}
+  - {fileID: 812810345}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -189,6 +190,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: 'Incline 45 '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5855405769446131731, guid: 053860c1848dbd5499e74d8d2607abf4,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 5903105170627592038, guid: 053860c1848dbd5499e74d8d2607abf4,
         type: 3}
@@ -660,6 +666,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Thick Ceiling (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 7928647371375719222, guid: ecc13069430c075499e5f339b5b07b7c,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ecc13069430c075499e5f339b5b07b7c, type: 3}
 --- !u!4 &495106607 stripped
@@ -927,6 +938,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Decline 45
       objectReference: {fileID: 0}
+    - target: {fileID: 6482113579099255943, guid: f873baea5c719eb42ac0e30864fbeea7,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 7186468129566020199, guid: f873baea5c719eb42ac0e30864fbeea7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1105,6 +1121,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61d9be2820edd6d4daf21b329767cda7, type: 3}
+--- !u!4 &812810345 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5680878776970731654, guid: ecc13069430c075499e5f339b5b07b7c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1912099096}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &857825806
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1534,12 +1556,12 @@ PrefabInstance:
     - target: {fileID: 5680878776970731654, guid: ecc13069430c075499e5f339b5b07b7c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 39.58
+      value: 38.34
       objectReference: {fileID: 0}
     - target: {fileID: 5680878776970731654, guid: ecc13069430c075499e5f339b5b07b7c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.61
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 5680878776970731654, guid: ecc13069430c075499e5f339b5b07b7c,
         type: 3}
@@ -1590,6 +1612,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Thick Ceiling (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7928647371375719222, guid: ecc13069430c075499e5f339b5b07b7c,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ecc13069430c075499e5f339b5b07b7c, type: 3}
@@ -3096,6 +3123,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Thick Incline 45 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7677690829992188658, guid: a0829405c05042647b4e61637ad9b273,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a0829405c05042647b4e61637ad9b273, type: 3}
 --- !u!4 &1793815981 stripped
@@ -3224,6 +3256,80 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1884726565}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1912099096
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 84413103}
+    m_Modifications:
+    - target: {fileID: 5680878776970731654, guid: ecc13069430c075499e5f339b5b07b7c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 40.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 5680878776970731654, guid: ecc13069430c075499e5f339b5b07b7c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.88
+      objectReference: {fileID: 0}
+    - target: {fileID: 5680878776970731654, guid: ecc13069430c075499e5f339b5b07b7c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.228837
+      objectReference: {fileID: 0}
+    - target: {fileID: 5680878776970731654, guid: ecc13069430c075499e5f339b5b07b7c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5680878776970731654, guid: ecc13069430c075499e5f339b5b07b7c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5680878776970731654, guid: ecc13069430c075499e5f339b5b07b7c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5680878776970731654, guid: ecc13069430c075499e5f339b5b07b7c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5680878776970731654, guid: ecc13069430c075499e5f339b5b07b7c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5680878776970731654, guid: ecc13069430c075499e5f339b5b07b7c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5680878776970731654, guid: ecc13069430c075499e5f339b5b07b7c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5680878776970731654, guid: ecc13069430c075499e5f339b5b07b7c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7928647371375719222, guid: ecc13069430c075499e5f339b5b07b7c,
+        type: 3}
+      propertyPath: m_Name
+      value: Thick Ceiling (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7928647371375719222, guid: ecc13069430c075499e5f339b5b07b7c,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ecc13069430c075499e5f339b5b07b7c, type: 3}
 --- !u!1001 &1933944625
 PrefabInstance:
   m_ObjectHideFlags: 0
