@@ -68,6 +68,7 @@
      <Compile Include="Assets\Scripts\Event_BoxDispenser.cs" />
      <Compile Include="Assets\Scripts\Players\Player_Inputs.cs" />
      <Compile Include="Assets\Scripts\Players\Player_Arm_Track.cs" />
+     <Compile Include="Assets\Scripts\Event_Door_Opener.cs" />
  <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
  <HintPath>/home/owen/Downloads/GameDev/GameDev-6358/Protal maybe/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
  </Reference>
