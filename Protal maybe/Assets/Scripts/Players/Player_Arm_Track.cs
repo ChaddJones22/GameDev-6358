@@ -26,11 +26,21 @@ public class Player_Arm_Track : MonoBehaviour
             currentequip = player.getEquipedWeapon();
             switch (currentequip)
             {
+                case 0:
+                    {
+                        weaponList[0].SetActive(false);
+                        weaponList[1].SetActive(false);
+                        weaponList[2].SetActive(false);
+                        weaponList[3].SetActive(true);
+
+                        break;
+                    }
                 case 1:
                     {
                         weaponList[0].SetActive(true);
                         weaponList[1].SetActive(false);
                         weaponList[2].SetActive(false);
+                        weaponList[3].SetActive(false);
 
                         Debug.Log("ACTIVATING PISTOL");
                         break;
@@ -40,6 +50,7 @@ public class Player_Arm_Track : MonoBehaviour
                         weaponList[0].SetActive(false);
                         weaponList[1].SetActive(true);
                         weaponList[2].SetActive(false);
+                        weaponList[3].SetActive(false);
                         break;
                     }
                 case 3:
@@ -47,6 +58,7 @@ public class Player_Arm_Track : MonoBehaviour
                         weaponList[0].SetActive(false);
                         weaponList[1].SetActive(false);
                         weaponList[2].SetActive(true);
+                        weaponList[3].SetActive(false);
                         break;
                     }
             }

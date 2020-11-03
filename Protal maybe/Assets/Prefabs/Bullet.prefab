@@ -4933,7 +4933,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletRB: {fileID: 4520834240546877084}
-  speedMulti: 4
+  speedMulti: 5
   impact: {fileID: 4449733965294397024, guid: dca19d95e469ad048a161f6c56629214, type: 3}
   lifeOver: 0
 --- !u!61 &1404303738
