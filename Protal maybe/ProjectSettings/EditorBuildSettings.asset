@@ -14,7 +14,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Forest Jump.unity
     guid: 5322bfc3d3382fa4ca5d465ba28be6b1
-  - enabled: 1
-    path: Assets/Scenes/EssentialCharacter.unity
-    guid: 72e929d915f96934db113fc1fafc5687
   m_configObjects: {}

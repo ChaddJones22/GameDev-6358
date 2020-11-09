@@ -27,30 +27,16 @@ public class Restart_Level : MonoBehaviour
         }
 
         //players falls out of map
-        /*if (transform.position.y < threshold)
+        if (transform.position.y < threshold)
         {
             GetScenes();
-        }*/
-
-        //Debug.Log("ActiveScene: " + SceneManager.GetActiveScene());
-          
-
+        }
     }
 
     void GetScenes()
     {
-        for(int x = 0; x < SceneManager.sceneCountInBuildSettings; x++)
-        {
-            if(x == 0)
-            {
-                SceneManager.LoadScene(SceneManager.GetSceneAt(x).name);
-            }
-            else
-            {
-                SceneManager.LoadSceneAsync(SceneManager.GetSceneAt(x).name,LoadSceneMode.Additive);
-            }
-        }
-
+        SceneManager.LoadScene(current_scene.name);
+        SceneManager.LoadScene("EssentialCharacter", LoadSceneMode.Additive);
     }
 
 }
