@@ -59,15 +59,16 @@
     <Compile Include="Assets\Scripts\Button_Interact.cs" />
     <Compile Include="Assets\Scripts\Scene_Switcher.cs" />
     <Compile Include="Assets\Scripts\Camera_Movement.cs" />
+    <Compile Include="Assets\Scripts\Anti_Player_Push.cs" />
     <Compile Include="Assets\Scripts\Players\Player_Movement.cs" />
+    <Compile Include="Assets\Scripts\BaseEvent.cs" />
     <Compile Include="Assets\Scripts\Bullets_Movement.cs" />
     <Compile Include="Assets\Scripts\Weapon_Item.cs" />
     <Compile Include="Assets\Scripts\Players\Player_Animation_Controller.cs" />
+    <Compile Include="Assets\Scripts\Event_BoxDispenser.cs" />
     <Compile Include="Assets\Scripts\Players\Player_Inputs.cs" />
     <Compile Include="Assets\Scripts\Players\Player_Arm_Track.cs" />
-    <Compile Include="Assets\Scripts\BaseEvent.cs" />
-    <Compile Include="Assets\Scripts\Event_BoxDispenser.cs" />
-    <Compile Include="Assets\Scripts\Anti_Player_Push.cs" />
+    <Compile Include="Assets\Scripts\Players\Restart_Level.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
