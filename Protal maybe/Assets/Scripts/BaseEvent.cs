@@ -20,4 +20,9 @@ public class BaseEvent : MonoBehaviour
     {
         Debug.Log("Event Activated");
     }
+
+    public virtual void EndEvent()
+    {
+        Debug.Log("Event Ended");
+    }
 }

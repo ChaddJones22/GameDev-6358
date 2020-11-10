@@ -324,7 +324,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -483,7 +483,7 @@ MonoBehaviour:
   smoothing: 0.1
   camerax: 0
   cameray: 0
-  offset: 3.25
+  offset: 3.8
   attached: 1
 --- !u!20 &519420031
 Camera:
@@ -512,7 +512,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 8.3
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -634,7 +634,7 @@ Transform:
   m_Father: {fileID: 97513392}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!43 &854504661
+--- !u!43 &990509991
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1343,7 +1343,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1929793424}
   m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
-  m_LocalPosition: {x: 140.7, y: 24.1, z: 0}
+  m_LocalPosition: {x: -59.64, y: -5.58, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 97513392}
@@ -1409,8 +1409,8 @@ MonoBehaviour:
   - {x: -0.043331146, y: -0.25200248, z: 0}
   - {x: -0.13910198, y: -0.29700208, z: 0}
   m_ShapePathHash: 1312562221
-  m_Mesh: {fileID: 854504661}
-  m_InstanceId: 18374
+  m_Mesh: {fileID: 990509991}
+  m_InstanceId: 17874
 --- !u!1 &1967798818
 GameObject:
   m_ObjectHideFlags: 0

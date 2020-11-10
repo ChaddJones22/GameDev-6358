@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class Event_Door_Opener : BaseEvent
 {
-    public GameObject door;
+    public BoxCollider2D door;
+    public bool open;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,7 +21,15 @@ public class Event_Door_Opener : BaseEvent
     public override void ActivateEvent()
     {
         Debug.Log("Door Opened");
-        GameObject spawned = Instantiate(door, this.transform.position, transform.rotation);
+        door.enabled = false;
+        this.gameObject.GetComponent<SpriteRenderer>().enabled = false;
 
+    }
+
+    public override void EndEvent()
+    {
+        base.EndEvent();
+        door.enabled = true;
+        this.gameObject.GetComponent<SpriteRenderer>().enabled = true;
     }
 }
