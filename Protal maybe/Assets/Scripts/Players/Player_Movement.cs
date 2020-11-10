@@ -175,6 +175,7 @@ public class Player_Movement : MonoBehaviour
         {
             hasGun[x] = false;
         }
+        playerInputs.equipNum = 0;
     }
 
     public bool wepInInv(int gunID)

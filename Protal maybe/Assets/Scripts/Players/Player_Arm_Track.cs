@@ -21,7 +21,7 @@ public class Player_Arm_Track : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(currentequip!=player.getEquipedWeapon() && player.wepInInv(player.getEquipedWeapon()-1))
+        if(currentequip!=player.getEquipedWeapon() && (player.getEquipedWeapon() == 0|| player.wepInInv(player.getEquipedWeapon()-1) ))
         {
             currentequip = player.getEquipedWeapon();
             switch (currentequip)
