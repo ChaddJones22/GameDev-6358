@@ -55,6 +55,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\ColorChangingPlatform.cs" />
      <Compile Include="Assets\Scripts\Bullet_Impact_Destroy.cs" />
      <Compile Include="Assets\Scripts\Button_Interact.cs" />
      <Compile Include="Assets\Scripts\Scene_Switcher.cs" />
@@ -70,7 +71,6 @@
      <Compile Include="Assets\Scripts\Event_BoxDispenser.cs" />
      <Compile Include="Assets\Scripts\Players\Player_Inputs.cs" />
      <Compile Include="Assets\Scripts\Players\Player_Arm_Track.cs" />
-     <Compile Include="Assets\Scripts\ColorChangingPlatform.cs" />
  <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
  <HintPath>C:/Users/Twent/Documents/GitHub/GameDev-6358/Protal maybe/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
  </Reference>

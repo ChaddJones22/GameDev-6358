@@ -29,7 +29,6 @@ public class ColorChangingPlatform : MonoBehaviour
         {
             GetComponent<SpriteRenderer>().color = hitColor;
             ifRed = true;
-            waitTime = waitTime;
 
         }
         //calls to fade back
