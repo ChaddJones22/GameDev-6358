@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/MainMenu.unity
+    guid: 0633f35502c056c4fa316db59c15fced
   - enabled: 1
     path: Assets/Scenes/Lab Escape L1.unity
     guid: 4368a261340674e4fb2bc1dc8cc1e1b8
