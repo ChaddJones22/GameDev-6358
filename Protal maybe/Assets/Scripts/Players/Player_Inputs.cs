@@ -53,6 +53,7 @@ public class Player_Inputs : MonoBehaviour
                 {
                     if (Input.GetMouseButtonDown(0) && !CoolDown)
                     {
+                        SoundManagerScript.playSound(equipNum);
                         shoot = true;
                     }
                     break;
@@ -62,6 +63,7 @@ public class Player_Inputs : MonoBehaviour
                 {
                     if (Input.GetMouseButton(0)&& !CoolDown)
                     {
+                        SoundManagerScript.playSound(equipNum);
                         shoot = true;
                     }
                     break;
