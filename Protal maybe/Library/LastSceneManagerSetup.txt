@@ -17,7 +17,7 @@ sceneSetups:
   isSubScene: 0
 - path: Assets/Scenes/Stage_01.unity
   isLoaded: 1
-  isActive: 0
+  isActive: 1
   isSubScene: 0
 - path: Assets/Scenes/Stage_04.unity
   isLoaded: 1
@@ -29,7 +29,7 @@ sceneSetups:
   isSubScene: 0
 - path: Assets/Scenes/Stage_06.unity
   isLoaded: 1
-  isActive: 1
+  isActive: 0
   isSubScene: 0
 - path: Assets/Scenes/EssentialCharacter.unity
   isLoaded: 1

@@ -54,6 +54,23 @@ public class Player_Inputs : MonoBehaviour
                     if (Input.GetMouseButtonDown(0) && !CoolDown)
                     {
                         shoot = true;
+
+                        //controls which audio clip for gun shot
+                        switch (equipNum)
+                        {
+                            case 1:
+                                FindObjectOfType<AudioManager>().Play("pistol_shoot");
+                                break;
+
+                            case 2:
+                                FindObjectOfType<AudioManager>().Play("shotgun_shoot");
+                                break;
+
+                            case 3:
+                                FindObjectOfType<AudioManager>().Play("machinegun_shoot");
+                                break;
+                        }
+                        
                     }
                     break;
                 }
@@ -63,6 +80,22 @@ public class Player_Inputs : MonoBehaviour
                     if (Input.GetMouseButton(0)&& !CoolDown)
                     {
                         shoot = true;
+
+                        //controls which audio clip for gun shot
+                        switch (equipNum)
+                        {
+                            case 1:
+                                FindObjectOfType<AudioManager>().Play("pistol_shoot");
+                                break;
+
+                            case 2:
+                                FindObjectOfType<AudioManager>().Play("shotgun_shoot");
+                                break;
+
+                            case 3:
+                                FindObjectOfType<AudioManager>().Play("machinegun_shoot");
+                                break;
+                        }
                     }
                     break;
                 }
