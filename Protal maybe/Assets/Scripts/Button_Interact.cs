@@ -8,6 +8,7 @@ public class Button_Interact : MonoBehaviour
     public GameObject ConnectedEvent;
     public bool PlayerInteractable;
     public bool continuos;
+    public bool NotNormal;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,7 +23,12 @@ public class Button_Interact : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Bullet" || collision.gameObject.tag=="Box")
+        if ((collision.gameObject.tag == "Bullet" || collision.gameObject.tag=="Box") && !NotNormal)
+        {
+            Debug.Log("Contact");
+            ConnectedEvent.GetComponent<BaseEvent>().ActivateEvent();
+        }
+        else if(collision.gameObject.tag == "Box" && NotNormal)
         {
             Debug.Log("Contact");
             ConnectedEvent.GetComponent<BaseEvent>().ActivateEvent();

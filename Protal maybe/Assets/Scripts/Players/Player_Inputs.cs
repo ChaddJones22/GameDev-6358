@@ -5,7 +5,7 @@ using UnityEngine;
 public class Player_Inputs : MonoBehaviour
 {
     public GameObject crosshair;
-    public Camera cam;
+    private Camera cam;
     public float xInput;
     public bool jumpInput;
     public bool shoot;
@@ -14,10 +14,13 @@ public class Player_Inputs : MonoBehaviour
     public bool CoolDown;
     public bool checkSwap;
     public int storedEquip;
+
+    public AudioClip[] gunSounds;
+    public AudioSource Audio;
     // Start is called before the first frame update
     void Start()
     {
-        cam=GameObject.FindGameObjectWithTag("MainCamera").gameObject.GetComponent<Camera>();
+        cam = Camera.main;
         Cursor.visible = false;
         equipNum = 0;
         storedEquip = equipNum;
@@ -55,22 +58,9 @@ public class Player_Inputs : MonoBehaviour
                     {
                         shoot = true;
 
-                        //controls which audio clip for gun shot
-                        switch (equipNum)
-                        {
-                            case 1:
-                                FindObjectOfType<AudioManager>().Play("pistol_shoot");
-                                break;
+                        Audio.clip = gunSounds[equipNum-1];
+                        Audio.Play();
 
-                            case 2:
-                                FindObjectOfType<AudioManager>().Play("shotgun_shoot");
-                                break;
-
-                            case 3:
-                                FindObjectOfType<AudioManager>().Play("machinegun_shoot");
-                                break;
-                        }
-                        
                     }
                     break;
                 }
@@ -82,20 +72,8 @@ public class Player_Inputs : MonoBehaviour
                         shoot = true;
 
                         //controls which audio clip for gun shot
-                        switch (equipNum)
-                        {
-                            case 1:
-                                FindObjectOfType<AudioManager>().Play("pistol_shoot");
-                                break;
-
-                            case 2:
-                                FindObjectOfType<AudioManager>().Play("shotgun_shoot");
-                                break;
-
-                            case 3:
-                                FindObjectOfType<AudioManager>().Play("machinegun_shoot");
-                                break;
-                        }
+                        Audio.clip = gunSounds[2];
+                        Audio.Play();
                     }
                     break;
                 }

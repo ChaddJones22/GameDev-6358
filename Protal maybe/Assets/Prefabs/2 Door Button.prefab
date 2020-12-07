@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 461843340276413004}
   m_Layer: 0
   m_Name: 2 Door Button
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -118,6 +118,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.x
       value: 0.06852521
+      objectReference: {fileID: 0}
+    - target: {fileID: 1366132847583826661, guid: cafa500ba674f8748888d69ac9367eb5,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 1366132847989038972, guid: cafa500ba674f8748888d69ac9367eb5,
         type: 3}

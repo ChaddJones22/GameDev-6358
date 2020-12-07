@@ -5,6 +5,7 @@ using UnityEngine;
 public class Event_BoxDispenser : BaseEvent
 {
     public GameObject box;
+    bool spawnOnce=true;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,7 +21,12 @@ public class Event_BoxDispenser : BaseEvent
     public override void ActivateEvent()
     {
         Debug.Log("Event Activated");
-        GameObject spawned = Instantiate(box, this.transform.position, transform.rotation);
+        if(spawnOnce)
+        {
+            GameObject spawned = Instantiate(box, this.transform.position, transform.rotation);
+            spawnOnce = false;
+        }
+       
 
     }
 }

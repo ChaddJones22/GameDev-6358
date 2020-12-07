@@ -186,7 +186,7 @@ public class Player_Movement : MonoBehaviour
     private void OnCollisionStay2D(Collision2D collision)
     {
         //checks if player has landed to jump agian
-        if(collision.gameObject.tag=="Ground")
+        if(collision.gameObject.tag=="Ground" || collision.gameObject.tag == "Box")
         {
             canJump = true;
         }
@@ -195,7 +195,7 @@ public class Player_Movement : MonoBehaviour
     private void OnCollisionExit2D(Collision2D collision)
     {
         //checks if player has landed to jump agian
-        if (collision.gameObject.tag == "Ground")
+        if (collision.gameObject.tag == "Ground" || collision.gameObject.tag == "Box")
         {
             canJump = false;
         }
