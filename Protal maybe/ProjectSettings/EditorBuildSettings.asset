@@ -27,6 +27,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Stage_06.unity
     guid: b39bc784dc86aef40849b4c647358aa2
   - enabled: 1
+    path: Assets/Scenes/Stage_07_next floor.unity
+    guid: dae53fc7a62f17e44925a920f3ee7cf4
+  - enabled: 0
     path: Assets/Scenes/Stage_07.unity
     guid: ebb33092609b4b24e9611f332ea72e7e
   - enabled: 1
