@@ -25,11 +25,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 295300529}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.0000104904175, y: 0, z: 10}
   m_LocalScale: {x: 1, y: 1.1, z: 1}
   m_Children: []
-  m_Father: {fileID: 4130525939371613219}
-  m_RootOrder: 3
+  m_Father: {fileID: 2020930802820441963}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &295300531
 SpriteRenderer:
@@ -263,7 +263,8 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 295300530}
   m_Father: {fileID: 4130525939371613219}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -335,6 +336,7 @@ MonoBehaviour:
   camerax: 0
   cameray: 0
   offset: 3
+  lookDown: 0
   attached: 1
 --- !u!114 &2020930802820441962
 MonoBehaviour:
@@ -1146,7 +1148,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   crosshair: {fileID: 295300529}
-  cam: {fileID: 2020930802820442004}
   xInput: 0
   jumpInput: 0
   shoot: 0
@@ -1154,6 +1155,8 @@ MonoBehaviour:
   CoolDown: 0
   checkSwap: 0
   storedEquip: 0
+  gunSounds: []
+  Audio: {fileID: 0}
 --- !u!114 &2020930804337741946
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1227,7 +1230,7 @@ MonoBehaviour:
   - {x: -0.13910198, y: -0.29700208, z: 0}
   m_ShapePathHash: 1312562221
   m_Mesh: {fileID: 0}
-  m_InstanceId: -45222
+  m_InstanceId: 64584
 --- !u!1 &6006318434061126937
 GameObject:
   m_ObjectHideFlags: 0
@@ -1258,7 +1261,6 @@ Transform:
   - {fileID: 2020930802820441963}
   - {fileID: 2020930804337741949}
   - {fileID: 2020930803883753905}
-  - {fileID: 295300530}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

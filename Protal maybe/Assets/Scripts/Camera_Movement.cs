@@ -11,6 +11,7 @@ public class Camera_Movement : MonoBehaviour
     public float camerax;
     public float cameray;
     public float offset;
+    public bool lookDown;
 
     public bool attached = true;
     private Vector3 hallwayPos;
@@ -24,10 +25,19 @@ public class Camera_Movement : MonoBehaviour
     {
         if (target != null && transform.position != target.position && attached)
         {
+            if(lookDown)
+            {
+                offset = 0;
+            }
+            else
+            {
+                offset = 3;
+            }
             camerax = target.position.x;
             cameray = target.position.y;
             Vector3 newPosition = new Vector3(camerax, cameray + offset, transform.position.z);
             transform.position = Vector3.Lerp(transform.position, newPosition, smoothing);
+            
         }
         else if(!attached)
         {
