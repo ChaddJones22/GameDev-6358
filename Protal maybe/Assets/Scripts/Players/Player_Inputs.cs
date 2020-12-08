@@ -103,11 +103,11 @@ public class Player_Inputs : MonoBehaviour
         //Tracks Crosshair to mouse position
         crosshair.transform.position = cam.ScreenToWorldPoint(Input.mousePosition);
         crosshair.transform.position = new Vector3(crosshair.transform.position.x, crosshair.transform.position.y, 0);
-        if(crosshair.transform.localPosition.y<-4f)
+        if(crosshair.transform.localPosition.y<-4.3f)
         {
             cam.GetComponent<Camera_Movement>().lookDown = true;
         }
-        else if(crosshair.transform.localPosition.y > -2f)
+        else if(crosshair.transform.localPosition.y > -1f)
         {
             cam.GetComponent<Camera_Movement>().lookDown = false;
         }
