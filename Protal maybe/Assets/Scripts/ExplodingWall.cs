@@ -35,7 +35,7 @@ public class ExplodingWall : MonoBehaviour
 
             if(health <= 0)
             {
-                part.Play(); //partial system
+               part.Play(); //partial system
                Destroy(gameObject);
             }
 

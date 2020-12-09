@@ -1155,7 +1155,10 @@ MonoBehaviour:
   CoolDown: 0
   checkSwap: 0
   storedEquip: 0
-  gunSounds: []
+  gunSounds:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   Audio: {fileID: 0}
 --- !u!114 &2020930804337741946
 MonoBehaviour:
@@ -1230,7 +1233,7 @@ MonoBehaviour:
   - {x: -0.13910198, y: -0.29700208, z: 0}
   m_ShapePathHash: 1312562221
   m_Mesh: {fileID: 0}
-  m_InstanceId: 64584
+  m_InstanceId: 68830
 --- !u!1 &6006318434061126937
 GameObject:
   m_ObjectHideFlags: 0

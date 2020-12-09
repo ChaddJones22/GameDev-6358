@@ -174,6 +174,7 @@ public class Player_Movement : MonoBehaviour
     public void pickUpWep(int gunID)
     {
         hasGun[gunID] = true;
+        playerInputs.equipNum = gunID+1;
     }
 
     //Clear Picked Up Wep if we have multiple stage per scene\\

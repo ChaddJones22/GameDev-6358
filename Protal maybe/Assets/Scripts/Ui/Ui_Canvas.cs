@@ -41,7 +41,7 @@ public class Ui_Canvas : MonoBehaviour
 
     IEnumerator fadeIn()
     {
-        for (float x = 1; x >= 0; x = x - .25f)
+        for (float x = 1; x >= 0; x = x - .1f)
         {
             Debug.Log(x);
             var tempColor = blackPanel.color;
@@ -61,7 +61,7 @@ public class Ui_Canvas : MonoBehaviour
     IEnumerator fadeOut()
     {
         blackPanel.enabled = true;
-        for (float x = 1; x <= 1; x = x + .25f)
+        for (float x = 1; x <= 1; x = x + .1f)
         {
             Debug.Log(x);
             var tempColor = blackPanel.color;
