@@ -33,9 +33,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Stage_08_Song.unity
     guid: b6c864d4774cad84a9cf2de8f4c9f8df
   - enabled: 0
-    path: Assets/Scenes/Stage_07.unity
+    path: Assets/Scenes/ScenesinWork/Stage_07.unity
     guid: ebb33092609b4b24e9611f332ea72e7e
   - enabled: 0
-    path: Assets/Scenes/Stage_08.unity
+    path: Assets/Scenes/ScenesinWork/Stage_08.unity
     guid: 808964885002b044e832f420b18f87b5
   m_configObjects: {}

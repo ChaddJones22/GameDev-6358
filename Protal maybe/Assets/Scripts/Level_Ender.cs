@@ -22,8 +22,10 @@ public class Level_Ender : MonoBehaviour
     {
         if(collision.tag=="Player")
         {
-            //DOES STORY STUFF THEN RUN NEXT SCENE
-            levelController.NextScene();
+            //Tells LEVEL CONTROLLER TO BEGIN LEVEL TRANSITION
+            levelController.StartEnd = true;
+            Static_Variables.lockPlayer = true;
+
         }
         
     }

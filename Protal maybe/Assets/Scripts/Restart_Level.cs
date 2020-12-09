@@ -6,7 +6,10 @@ using UnityEngine.SceneManagement;
 public class Restart_Level : MonoBehaviour
 {
     Scene current_scene;
+    public int currentIndex;
     public float threshold = -15;
+    public bool StartEnd=false;
+    public bool StartReset=false;
     public GameObject EssentialEntities;
     public Transform StartLocation;
 
@@ -26,7 +29,7 @@ public class Restart_Level : MonoBehaviour
         //restart current level if reset button pushed 'p'
         if (Input.GetKeyDown(KeyCode.P))
         {
-            GetScenes();
+            StartReset = true;
         }
 
         
@@ -40,9 +43,14 @@ public class Restart_Level : MonoBehaviour
 
     public void NextScene()
     {
-        int CurrentIndex = current_scene.buildIndex +1;
-        
-        SceneManager.LoadScene(CurrentIndex,LoadSceneMode.Single) ; 
+        currentIndex = current_scene.buildIndex;
+        currentIndex++;
+        SceneManager.LoadScene(currentIndex, LoadSceneMode.Single);
+    }
+
+    public void ResetScene()
+    {
+        GetScenes();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -50,7 +58,7 @@ public class Restart_Level : MonoBehaviour
         //players falls out of map
         if (collision.tag=="Player")
         {
-            GetScenes();
+            StartReset = true;
         }
     }
 }

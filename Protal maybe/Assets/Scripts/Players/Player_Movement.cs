@@ -35,6 +35,14 @@ public class Player_Movement : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
+        if(Static_Variables.lockPlayer==true)
+        {
+            playerInputs.enabled = false;
+        }
+        else
+        {
+            playerInputs.enabled = true;
+        }
         equipCheck();
         angleCalculation();       
         jump();
@@ -269,4 +277,8 @@ public class Player_Movement : MonoBehaviour
         shooting = false;
         yield return 0;
     }
+
+
+    
+
 }
