@@ -22,13 +22,9 @@ public class Weapon_Item : MonoBehaviour
         if (collision.tag == "Player")
         {
             Debug.Log("Player In Range");
-            if(Input.GetKey(KeyCode.E))
-            {
-
-                Debug.Log("Picked Up: " + gunId);
-                collision.GetComponent<Player_Movement>().pickUpWep(gunId);
-                Destroy(this.gameObject);
-            }
+            Debug.Log("Picked Up: " + gunId);
+            collision.GetComponent<Player_Movement>().pickUpWep(gunId);
+            Destroy(this.gameObject);
         }
     }
 }

@@ -35,6 +35,14 @@ public class Player_Movement : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
+        if(Static_Variables.lockPlayer==true)
+        {
+            playerInputs.enabled = false;
+        }
+        else
+        {
+            playerInputs.enabled = true;
+        }
         equipCheck();
         angleCalculation();       
         jump();
@@ -166,6 +174,7 @@ public class Player_Movement : MonoBehaviour
     public void pickUpWep(int gunID)
     {
         hasGun[gunID] = true;
+        playerInputs.equipNum = gunID+1;
     }
 
     //Clear Picked Up Wep if we have multiple stage per scene\\
@@ -175,6 +184,7 @@ public class Player_Movement : MonoBehaviour
         {
             hasGun[x] = false;
         }
+        playerInputs.equipNum = 0;
     }
 
     public bool wepInInv(int gunID)
@@ -185,7 +195,7 @@ public class Player_Movement : MonoBehaviour
     private void OnCollisionStay2D(Collision2D collision)
     {
         //checks if player has landed to jump agian
-        if(collision.gameObject.tag=="Ground")
+        if(collision.gameObject.tag=="Ground" || collision.gameObject.tag == "Box")
         {
             canJump = true;
         }
@@ -194,7 +204,7 @@ public class Player_Movement : MonoBehaviour
     private void OnCollisionExit2D(Collision2D collision)
     {
         //checks if player has landed to jump agian
-        if (collision.gameObject.tag == "Ground")
+        if (collision.gameObject.tag == "Ground" || collision.gameObject.tag == "Box")
         {
             canJump = false;
         }
@@ -268,4 +278,8 @@ public class Player_Movement : MonoBehaviour
         shooting = false;
         yield return 0;
     }
+
+
+    
+
 }

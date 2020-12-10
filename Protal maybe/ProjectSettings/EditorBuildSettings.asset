@@ -6,12 +6,36 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/MainMenu.unity
+    guid: 0633f35502c056c4fa316db59c15fced
   - enabled: 1
-    path: Assets/Scenes/Lab Escape L1.unity
+    path: Assets/Scenes/Stage_01.unity
+    guid: 00f2cdbe873b515478a3c28ccc1d3de6
+  - enabled: 1
+    path: Assets/Scenes/Stage_02_LabEscape.unity
     guid: 4368a261340674e4fb2bc1dc8cc1e1b8
   - enabled: 1
-    path: Assets/Scenes/Forest Jump.unity
+    path: Assets/Scenes/Stage_03_Forest_Escape.unity
     guid: 5322bfc3d3382fa4ca5d465ba28be6b1
+  - enabled: 1
+    path: Assets/Scenes/Stage_04.unity
+    guid: 477dcc17c4c6ca640a6a2eddc9099740
+  - enabled: 1
+    path: Assets/Scenes/Stage_05.unity
+    guid: fb1fcdbc1446ecd4aa57202181f2eb37
+  - enabled: 1
+    path: Assets/Scenes/Stage_06.unity
+    guid: b39bc784dc86aef40849b4c647358aa2
+  - enabled: 1
+    path: Assets/Scenes/Stage_07_next floor.unity
+    guid: dae53fc7a62f17e44925a920f3ee7cf4
+  - enabled: 1
+    path: Assets/Scenes/Stage_08_Song.unity
+    guid: b6c864d4774cad84a9cf2de8f4c9f8df
+  - enabled: 0
+    path: Assets/Scenes/ScenesinWork/Stage_07.unity
+    guid: ebb33092609b4b24e9611f332ea72e7e
+  - enabled: 0
+    path: Assets/Scenes/ScenesinWork/Stage_08.unity
+    guid: 808964885002b044e832f420b18f87b5
   m_configObjects: {}

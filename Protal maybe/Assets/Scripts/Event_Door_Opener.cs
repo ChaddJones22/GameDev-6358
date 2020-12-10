@@ -4,13 +4,8 @@ using UnityEngine;
 
 public class Event_Door_Opener : BaseEvent
 {
-    public GameObject door;
-    public Transform pivot;
-    public BoxCollider2D doorSelect;
-    public float speedModifier;
-    bool door_activate = false;
-
-
+    public BoxCollider2D door;
+    public bool open;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,21 +15,21 @@ public class Event_Door_Opener : BaseEvent
     // Update is called once per frame
     void Update()
     {
-        if (door_activate == true){
-            door.transform.localScale = new Vector3(0,0,0);
-        }
+
     }
 
     public override void ActivateEvent()
     {
         Debug.Log("Door Opened");
+        door.enabled = false;
+        this.gameObject.GetComponent<SpriteRenderer>().enabled = false;
 
-        doorSelect.enabled=false;
-
-        door_activate = true;
     }
 
-
+    public override void EndEvent()
+    {
+        base.EndEvent();
+        door.enabled = true;
+        this.gameObject.GetComponent<SpriteRenderer>().enabled = true;
+    }
 }
-
-
