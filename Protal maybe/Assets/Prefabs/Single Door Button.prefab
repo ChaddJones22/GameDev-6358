@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1366132847335046342}
   m_Layer: 0
-  m_Name: Push Button
+  m_Name: Single Door Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -238,4 +238,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ConnectedEvent: {fileID: 0}
   PlayerInteractable: 0
-  continuos: 0
+  continuos: 1
+  NotNormal: 0
+  multiEvent: 0
+  ConnectedMultiEvents: []
