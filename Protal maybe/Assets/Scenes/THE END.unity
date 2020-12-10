@@ -550,10 +550,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "Team Lead\nPhuoc Tran\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\tLevel Desginer\n\t\t\t\t\t\t\t\t\t\t\t\t\t\tChadd
-    Jones\n\t\t\t\t\t\t\t\t\t\t\t\t\t\tSongwen Xue\n\nCoder\nEsai Hernadez\nPhuoc
-    Tran\n\t\t\t\t\t\t\t\t\t\t\t\t\t\tStory Writer\n\t\t\t\t\t\t\t\t\t\t\t\t\t\tJustin
-    West\n\nArt\nPhuoc Tran\n"
+  m_Text: "Team Lead/Artist/Coder\nPhuoc Tran\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\tLevel
+    Desginer\n\t\t\t\t\t\t\t\t\t\t\t\t\t\tChadd Jones\n\t\t\t\t\t\t\t\t\t\t\t\t\t\tSongwen
+    Xue\n\nCoder\nEsai Hernadez\n\t\t\t\t\t\t\t\t\t\t\t\t\t\tStory Writer\n\t\t\t\t\t\t\t\t\t\t\t\t\t\tJustin
+    West\n\n"
 --- !u!222 &1208593810
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -694,7 +694,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1345988463
 RectTransform:
   m_ObjectHideFlags: 0

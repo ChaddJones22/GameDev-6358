@@ -99,7 +99,7 @@ public class Ui_Canvas : MonoBehaviour
 
                 if (!Input.GetKey("e"))
                 {
-                    yield return new WaitForSecondsRealtime(0.6f);
+                    yield return new WaitForSecondsRealtime(1.3f);
                 }
 
                 if (i != dialogueIndex - 1)
@@ -221,7 +221,7 @@ public class Ui_Canvas : MonoBehaviour
 
                                 if (!Input.GetKey("e"))
                                 {
-                                    yield return new WaitForSecondsRealtime(0.6f);
+                                    yield return new WaitForSecondsRealtime(1.3f);
                                 }
 
                                 if (i != dialogueIndex - 1)
