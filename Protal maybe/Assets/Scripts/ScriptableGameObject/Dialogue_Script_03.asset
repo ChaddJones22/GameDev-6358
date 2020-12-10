@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73123796daf102242aac62bd47069443, type: 3}
+  m_Name: Dialogue_Script_03
+  m_EditorClassIdentifier: 
+  charSpeaker:
+  - speakerID: 4
+    speakerName: 
+    Dialogue: "This feels wrong. I know this is a memory and that it will show me
+      more of who I am but for some reason I don\u2019t want to remember it. Although
+      I feel this way, I need to know who I am so I have to see this. Talk about
+      setting the mood, this rain really makes everything even more depressing. I
+      see mom and dad by the front door but they seem really awkward, they have such
+      a good relationship what\u2019s up with that? Oh, there\u2019s Isabella, she
+      must be back from college, but why is she handing dad a suitcase? She\u2019s
+      saying goodbye so dad must be going on a business trip but why is she so sad
+      about it he\u2019ll be back eventually. I can hear Rebecca crying, isn\u2019t
+      she a bit old to be crying from dad going on a business trip I mean she\u2019s
+      already in middle school. Dad\u2019s looking my way but why is he giving me
+      a weak smile? Why do I look so uncomfortable, why aren\u2019t I saying anything
+      doing anything? I should at least go over to say goodbye and that I can\u2019t
+      wait for him to come back home. Home, now I remember why everyone is so sad
+      and I know hats coming next, moms going to apologize. That\u2019s not what
+      I want to hear I don\u2019t want to hear her say she\u2019s sorry, I want her
+      to not get the \u201CDivorce\u201D"
+  - speakerID: 2
+    speakerName: Scientist 2
+    Dialogue: Well, this is just great I guess this will happen every time he completes
+      a test. This is just slowing us down.
+  - speakerID: 0
+    speakerName: David
+    Dialogue: Well good morning to you too.
+  - speakerID: 3
+    speakerName: Scientist 3
+    Dialogue: Welcome back David. I guess this means that we can assume our hypothesis
+      to be true for the time being.
+  - speakerID: 1
+    speakerName: Scientist 1
+    Dialogue: "There isn\u2019t a lot of evidence to guarantee it but there is enough
+      were we should assume it to be true."
+  - speakerID: 0
+    speakerName: David
+    Dialogue: What hypothesis are you all talking about?
+  - speakerID: 2
+    speakerName: Scientist 2
+    Dialogue: The annoying one where every time you complete a test you regain a
+      portion of your memories which takes a good 12 hours slowing us down.
+  - speakerID: 0
+    speakerName: David
+    Dialogue: "It takes 12 hours? No wonder I don\u2019t feel the need to sleep I\u2019m
+      resting for that long. I guess my other necessities are also taken care of
+      during that time since I don\u2019t feel the need to eat or drink either."
+  - speakerID: 2
+    speakerName: Scientist 2
+    Dialogue: "Yes, that is the case and I\u2019m also quite happy to see you learned
+      to finally behave properly-"
+  - speakerID: 0
+    speakerName: David
+    Dialogue: "Would it kill you to not make a smart comment every time you open
+      your mouth? The reason I, as you would say, \u2018behaved properly\u2019 is
+      because of the memory I experienced."
+  - speakerID: 2
+    speakerName: Scientist 2
+    Dialogue: And what just so happens to be this memory that did me a favor?
+  - speakerID: 0
+    speakerName: David
+    Dialogue: "It was about a month before my high school graduation when my parents\u2019
+      divorce officially went through and my dad moved out."
+  - speakerID: 2
+    speakerName: Scientist 2
+    Dialogue: "I\u2026 see. That sounds painful"
+  - speakerID: 0
+    speakerName: David
+    Dialogue: Yeah so can we just move on to the next test?
+  - speakerID: 3
+    speakerName: Scientist 3
+    Dialogue: Perhaps you should take a break and come to terms with your memories
+      and wait till your in a better head space?
+  - speakerID: 0
+    speakerName: David
+    Dialogue: Thanks, but no thanks. Getting back into the tests as soon as possible
+      to give me something to do is probably for the best.
+  - speakerID: 3
+    speakerName: Scientist 3
+    Dialogue: "I don\u2019t think this is wise the \u2013"
+  - speakerID: 1
+    speakerName: Scientist 1
+    Dialogue: He has already spoken and we shall go with what he wants to do.
+  - speakerID: 3
+    speakerName: Scientist 3
+    Dialogue: But the results -
+  - speakerID: 1
+    speakerName: Scientist 1
+    Dialogue: The decision has been made we continue on.
+  - speakerID: 0
+    speakerName: David
+    Dialogue: What do I need to know?
+  - speakerID: 2
+    speakerName: Scientist 2
+    Dialogue: "For the next test you will be getting another new weapon, this time
+      an assault rifle. This tool allows for a consistent application of force which
+      allows for the moving of heavier blocks. To use it you will have to press the
+      key \u20183\u2019 once you have picked it up."
+  - speakerID: 0
+    speakerName: David
+    Dialogue: "Alright then. See you once it\u2019s done."

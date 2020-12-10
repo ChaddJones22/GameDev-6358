@@ -1,0 +1,137 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73123796daf102242aac62bd47069443, type: 3}
+  m_Name: Dialogue_Script_01
+  m_EditorClassIdentifier: 
+  charSpeaker:
+  - speakerID: 4
+    speakerName: 
+    Dialogue: "I\u2019m seeing something\u2026 an image of some sort? No, not an
+      image, but a scene, something from a movie maybe. I see an adult and a child,
+      they\u2019re outside a few yards away from some building. The man is talking
+      to the young boy, the man seems serious but he can\u2019t stop smiling and
+      the young boy doesn\u2019t seem to be listening all that much, he\u2019s so
+      excited to the point where he\u2019s not paying attention. Wait why do I know
+      that they are a man and a young boy? They stopped talking, they\u2019re looking
+      towards the building, something no, someone is coming out. It\u2019s a woman
+      and a young girl a little older than the boy, they\u2019re exiting the house
+      together and the woman is holding something, some rags? I don\u2019t know why
+      but the little girl really wants those blankets for some reason. No wait, it\u2019s
+      not the blanket she wants its what they\u2019re wrapped around, a new born
+      baby, a beautiful baby girl. I see they\u2019re a family and this isn\u2019t
+      some scene from a movie it\u2019s a memory from my childhood. Wait it looks
+      like my dad is about to say something. His mouth is moving but I can\u2019t
+      hear he\u2019s saying. I just heard him say something but what? He said a name
+      but who\u2019s? What was the name I can almost hear it, c\u2019mon, I almost
+      have it. \u201CDavid\u201D"
+  - speakerID: 2
+    speakerName: Scientist 2
+    Dialogue: "Sub\u2026 S\u2026ject\u2026 Subject 8574219 please respond when we
+      address you it\u2019s the least you can do."
+  - speakerID: 0
+    speakerName: David
+    Dialogue: Sorry, my bad I was a bit distracted at the moment.
+  - speakerID: 2
+    speakerName: Scientist 2
+    Dialogue: "Um\u2026 well\u2026 as long as you are aware and it doesn\u2019t happen
+      again there should be no issue. \tAnyway Subject 857- "
+  - speakerID: 0
+    speakerName: David
+    Dialogue: David
+  - speakerID: 2
+    speakerName: Scientist 2
+    Dialogue: What?
+  - speakerID: 0
+    speakerName: David
+    Dialogue: "David, it\u2019s my name so don\u2019t call me subject or patient
+      whatever, call me by my name, David."
+  - speakerID: 3
+    speakerName: Scientist 3
+    Dialogue: So, you have regained your memories, congratulations are in order then
+      David.
+  - speakerID: 0
+    speakerName: David
+    Dialogue: "Thank you but I haven\u2019t got them all back."
+  - speakerID: 1
+    speakerName: Scientist 1
+    Dialogue: Then this means you have only regained a portion of your memories?
+      What do you remember?
+  - speakerID: 0
+    speakerName: David
+    Dialogue: "I regained some memories from my childhood, I remember my family.
+      It\u2019s not much and its only when I was young but I remembered my childhood
+      up to the point when my baby sister was born and brought home."
+  - speakerID: 0
+    speakerName: Scientist 2
+    Dialogue: "Well, I guess that I should congratulate you on at least remembering
+      your name though the rest isn\u2019t very helpful"
+  - speakerID: 0
+    speakerName: David
+    Dialogue: "Geee I\u2019m sorry maybe next time I\u2019ll remember what the middle
+      finger means, you know what why don\u2019t I show it to you maybe you can tell
+      me what it means."
+  - speakerID: 3
+    speakerName: Scientist 3
+    Dialogue: David I apologize for the comments made by my associate but I would
+      like if you could refrain from resorting to such behaviors?
+  - speakerID: 0
+    speakerName: David
+    Dialogue: "\u2026 Alright I apologize that was a bit much it won\u2019t happen
+      again. But I think that your associate might need to also do these tasks because
+      he seems to have forgotten his manners."
+  - speakerID: 2
+    speakerName: Scientist 2
+    Dialogue: "Why I\u2026 the nerve. I shou-"
+  - speakerID: 1
+    speakerName: Scientist 1
+    Dialogue: "Enough, both of you, there is still work to be done. David while I\u2019m
+      sure your happy to remember your name you must want to remember more of your
+      past so we must continue."
+  - speakerID: 0
+    speakerName: David
+    Dialogue: "Yeah, your right alright I\u2019ll get going to the next test."
+  - speakerID: 2
+    speakerName: Scientist 2
+    Dialogue: Yes, please do be so impatient and run headlong into your doom it will
+      be quite funny to watch.
+  - speakerID: 0
+    speakerName: David
+    Dialogue: Would you just shut-
+  - speakerID: 3
+    speakerName: Scientist 3
+    Dialogue: What he was trying to say was the next test and those after require
+      some know how beforehand to complete.
+  - speakerID: 0
+    speakerName: David
+    Dialogue: Alright what do I need to know?
+  - speakerID: 3
+    speakerName: Scientist 3
+    Dialogue: "You will need to know how to use a tool, a handgun. To pick it up
+      first you must approach it then it will auto equip and finally to use it left
+      click your mouse. However, if you ever somehow put it away and need it again
+      you must press the key \u20181\u2019. "
+  - speakerID: 0
+    speakerName: David
+    Dialogue: Why are you telling me key binds and how will they help me use this
+      gun?
+  - speakerID: 1
+    speakerName: Scientist 1
+    Dialogue: You have been equipped with a belt that is linked to your brain and
+      can be used as a storage device. Most likely since you forgot how to use it
+      with your lost memories, we figured the best way to have you relearn to use
+      it was to associate it with something familiar like videogame controls. This
+      handgun will let you move and destroy objects that block your path. Do you
+      understand?
+  - speakerID: 0
+    speakerName: David
+    Dialogue: "Yeah, I guess, it\u2019s still weird but I know what to do so let\u2019s
+      go."

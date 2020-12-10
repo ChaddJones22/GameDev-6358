@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73123796daf102242aac62bd47069443, type: 3}
+  m_Name: Dialogue_Script_05
+  m_EditorClassIdentifier: 
+  charSpeaker:
+  - speakerID: 4
+    speakerName: 
+    Dialogue: "I can\u2019t breathe! Why can\u2019t I breathe? What\u2019s happening?...
+      I\u2019m scared, am I going to die? No. No, no, no this is a memory so I couldn\u2019t
+      have died. Then am I in danger? Am I drowning? I don\u2019t see any water;
+      in fact, this looks like the apartment I rented out when I started grad school.
+      I can\u2019t breathe and since I\u2019m not drowning, am I chocking? No, I
+      don\u2019t appear to be chocking, I\u2019m just standing there on a phone call,
+      so what\u2019s wron- AAAAAAAAAGGGHHHHHHHHHHHHH!!!! It hurts. It hurts, it hurts
+      it hurts. My heart it hurts so much, it feels like its about to explode. The
+      pain, it feels like my heart is on fire it feels like its about to burst. Please
+      someone anybody help me, the pain is so excruciating, please just make it stop\u2026
+      Stop? It stopped; my heart stopped. Why is my heart stopped why is my heart
+      not beating? A moment ago, it felt like my heart was on fire but now it\u2019s
+      so cold. What\u2019s happening? What is this\u2026 No, oh God please no, please
+      no, no, no. Please dear god anything but this I\u2019m begging, please. I don\u2019t
+      want to remember please no. Please don\u2019t make me remember \u201CThe Accident\u201D"
+  - speakerID: 0
+    speakerName: David
+    Dialogue: ....
+  - speakerID: 1
+    speakerName: 
+    Dialogue: Look, David has come to.
+  - speakerID: 0
+    speakerName: David
+    Dialogue: ....
+  - speakerID: 2
+    speakerName: 
+    Dialogue: "Something isn\u2019t right, he\u2019s just sitting there."
+  - speakerID: 3
+    speakerName: 
+    Dialogue: "His memories are coming closer and closer to the present. Do you think
+      that he\u2026?"
+  - speakerID: 1
+    speakerName: 
+    Dialogue: "It\u2019s unlikely. His memories seem to be key moments in his life
+      that dictate who he is and what he does in the future. He still should have
+      plenty of moments like that in his life before that point. Based on the previous
+      memory the most likely cause was that he recalled \u201CThe Accident\u201D
+      and is in a state of emotional shock."
+  - speakerID: 2
+    speakerName: 
+    Dialogue: Should we postpone the remaining tests until he stabilizes?
+  - speakerID: 3
+    speakerName: 
+    Dialogue: "You must be joking we are getting the best results we have ever gotten
+      and this is the key point in the tests where he needs to act now. There\u2019s
+      absolutely no way we can put this on pause."
+  - speakerID: 2
+    speakerName: 
+    Dialogue: Yes, but his current emotional state could cause the results of the
+      tests to be a complete mess and there is no telling what the back lash could
+      be.
+  - speakerID: 1
+    speakerName: 
+    Dialogue: You both make valid points. He had a similar episode earlier and choose
+      to continue right away but this could be worse. Perhaps we should ask the patient
+      how he is doing and what he thinks?
+  - speakerID: 3
+    speakerName: 
+    Dialogue: Then we shall do that.
+  - speakerID: 2
+    speakerName: 
+    Dialogue: Agreed.
+  - speakerID: 1
+    speakerName: 
+    Dialogue: David? David can you hear me?
+  - speakerID: 0
+    speakerName: David
+    Dialogue: "\u2026 Huh? What? Yeah, I can hear you."
+  - speakerID: 3
+    speakerName: 
+    Dialogue: Is everything alright?
+  - speakerID: 0
+    speakerName: David
+    Dialogue: Yes, I just recalled a very disturbing memory.
+  - speakerID: 2
+    speakerName: 
+    Dialogue: Are you able to continue or do you ne-
+  - speakerID: 0
+    speakerName: David
+    Dialogue: "No! No, I can continue. In fact, I feel like if I was to stop now,
+      I wouldn\u2019t be able to continue again so I need to continue now."
+  - speakerID: 3
+    speakerName: 
+    Dialogue: How splendid.
+  - speakerID: 0
+    speakerName: David
+    Dialogue: What do I need to know for the next test?
+  - speakerID: 1
+    speakerName: 
+    Dialogue: You already know everything you need to know. All the remaining test
+      will require you to use the knowledge you acquired from the previous ones.
+  - speakerID: 0
+    speakerName: David
+    Dialogue: So, for the remaining tests there is nothing else new I need to know?
+  - speakerID: 1
+    speakerName: 
+    Dialogue: That is correct.
+  - speakerID: 0
+    speakerName: David
+    Dialogue: "Good, then that means we can get through the remaining test that much
+      faster. Let\u2019s not delay."
+  - speakerID: 1
+    speakerName: 
+    Dialogue: Perfect.

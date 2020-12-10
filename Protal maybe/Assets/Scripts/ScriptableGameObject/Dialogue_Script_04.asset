@@ -1,0 +1,140 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73123796daf102242aac62bd47069443, type: 3}
+  m_Name: Dialogue_Script_04
+  m_EditorClassIdentifier: 
+  charSpeaker:
+  - speakerID: 4
+    speakerName: 
+    Dialogue: "What is this place, whose room is this? I don\u2019t recognize it\u2026
+      or do I? I don\u2019t remember this room but it feels so familiar, almost like
+      a home away from home. Where am I, or I guess past me? That must be me sitting
+      on the bed, but I look older. I see know I must be away at college and this
+      is my current dorm room, a home while at school, my home away from home. I
+      look so concerned and unsure about something, could I be nervous about a class?
+      I don\u2019t see any school work around me and the TV is on so I doubt its
+      that. The TV is just playing a movie but I doubt that is enough to make me
+      look so concerned so what is it? My phone is open to a news article, maybe
+      what\u2019s concerning me is in there. Plus 1 to detection skills as well as
+      too depression, turns out there has been a scandal at my dream job of Providence
+      Technology. Apparently, there has been a lot of shady business practices as
+      well as some issues regarding some of their scientific procedures. There\u2019s
+      a surprising number of humanitarian issues. No wonder I\u2019m so concerned
+      my future looks very murky since my dreams are now crumbling around me. But
+      not all hope is lost, in a few days\u2019 news will drop that the company will
+      have tighter government supervision and will be coming under \u201CNew Management\u201D"
+  - speakerID: 0
+    speakerName: David
+    Dialogue: After rain there is always a rainbow.
+  - speakerID: 1
+    speakerName: Scientist 1
+    Dialogue: ....
+  - speakerID: 2
+    speakerName: Scientist 2
+    Dialogue: ....
+  - speakerID: 3
+    speakerName: Scientist 3
+    Dialogue: ....
+  - speakerID: 0
+    speakerName: David
+    Dialogue: Why is everyone so quiet?
+  - speakerID: 3
+    speakerName: Scientist 3
+    Dialogue: Apologies, since we figured you would reclaim a portion of your memories
+      we decided to wait until you woke up before we have any discussions and we
+      were caught off guard by your comment just now.
+  - speakerID: 0
+    speakerName: David
+    Dialogue: I see, my comment there without any context would definitely confuse
+      some people. In the memory a few years had passed and I was in college and
+      news had just broke that the company I wanted to work for Providence Technology
+      was going through a massive scandal.
+  - speakerID: 2
+    speakerName: Scientist 2
+    Dialogue: You must have been heartbroken.
+  - speakerID: 0
+    speakerName: David
+    Dialogue: "Yeah\u2026 at first, I was but I remembered that in a few days\u2019
+      news would drop saying the company would be coming under new management so
+      not all hope was lost."
+  - speakerID: 3
+    speakerName: Scientist 3
+    Dialogue: Are you alright you paused for a second there at the beginning?
+  - speakerID: 0
+    speakerName: David
+    Dialogue: "Yeah, I\u2019m fine I was just caught off guard by the comment made
+      by your associate I normally but heads with. While the comment wasn\u2019t
+      a very nice, I would even say rude way of putting things it didn\u2019t feel
+      malicious so I was caught off guard."
+  - speakerID: 2
+    speakerName: Scientist 2
+    Dialogue: Humph.
+  - speakerID: 1
+    speakerName: Scientist 1
+    Dialogue: You said something that caught my attention earlier, you mentioned
+      remembering something that would happen in the future during your memory. Is
+      this the first time this has happened?
+  - speakerID: 0
+    speakerName: David
+    Dialogue: Now that you mention it yeah it is. I generally get other memories
+      once the main one completes and some of them are even of thing that will happen
+      a little bit into the future but I have never remembered anything or any other
+      memories during the main one.
+  - speakerID: 1
+    speakerName: Scientist 1
+    Dialogue: How very interesting we will have to take note of this.
+  - speakerID: 0
+    speakerName: David
+    Dialogue: "I mean I don\u2019t think it is all that interesting or concerning
+      I would have remembered it once I came too most likely"
+  - speakerID: 1
+    speakerName: Scientist 1
+    Dialogue: For you perhaps this is a good thing but for us this is quite concerning.
+  - speakerID: 0
+    speakerName: David
+    Dialogue: Why would it be concerning?
+  - speakerID: 3
+    speakerName: Scientist 3
+    Dialogue: Any changes in how things were going could be a bad sign.
+  - speakerID: 2
+    speakerName: Scientist 2
+    Dialogue: Plus, now that memories are overlapping one another and combining the
+      future with the past this could alter your state of mind even if slightly.
+  - speakerID: 0
+    speakerName: David
+    Dialogue: Yeah that could be bad should we stop?
+  - speakerID: 3
+    speakerName: Scientist 3
+    Dialogue: "I don\u2019t think there will be a need for that we will monitor your
+      condition and should something serious should happen we will take the appropriate
+      actions."
+  - speakerID: 0
+    speakerName: David
+    Dialogue: "Shouldn\u2019t we stop now so those situations don\u2019t happen?"
+  - speakerID: 3
+    speakerName: Scientist 3
+    Dialogue: "We could, but don\u2019t you want your memories back?"
+  - speakerID: 0
+    speakerName: David
+    Dialogue: ....
+  - speakerID: 1
+    speakerName: Scientist 1
+    Dialogue: For the next test pressure plates or buttons will be introduced. Upon
+      a certain amount of weight being placed on them they will trigger some contraption
+      to move which will allow you to progress throughout the test. Are you ready
+      to proceed?
+  - speakerID: 0
+    speakerName: David
+    Dialogue: I guess.
+  - speakerID: 3
+    speakerName: Scientist 3
+    Dialogue: "Good, then let\u2019s not delay."

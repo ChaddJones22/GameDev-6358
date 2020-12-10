@@ -9,7 +9,6 @@ public class Button_Interact : MonoBehaviour
     public bool PlayerInteractable;
     public bool continuos;
     public bool NotNormal;
-    public float waitTime = 0.8f;
 
     public bool multiEvent;
     public GameObject[] ConnectedMultiEvents;
@@ -51,7 +50,7 @@ public class Button_Interact : MonoBehaviour
             ConnectedEvent.GetComponent<BaseEvent>().ActivateEvent();
         }
 
-        if(PlayerInteractable && collision.gameObject.tag == "Player")
+        if(PlayerInteractable && collision.gameObject.tag=="Player")
         {
             if (multiEvent)
             {
@@ -65,11 +64,7 @@ public class Button_Interact : MonoBehaviour
                 ConnectedEvent.GetComponent<BaseEvent>().ActivateEvent();
             }
         }
-
-        if (collision.gameObject.tag == "Bullet" && continuos) 
-        {
-             StartCoroutine("TimedDoor");
-        }   
+            
     }
 
     private void OnCollisionStay2D(Collision2D collision)
@@ -112,10 +107,4 @@ public class Button_Interact : MonoBehaviour
         }
         
     }
-
-     IEnumerator TimedDoor()
-        {
-            yield return new WaitForSeconds(waitTime);
-             ConnectedEvent.GetComponent<BaseEvent>().EndEvent();
-        }
 }

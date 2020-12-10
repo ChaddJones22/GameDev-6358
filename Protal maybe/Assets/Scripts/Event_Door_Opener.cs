@@ -6,6 +6,7 @@ public class Event_Door_Opener : BaseEvent
 {
     public BoxCollider2D door;
     public bool open;
+
     // Start is called before the first frame update
     void Start()
     {

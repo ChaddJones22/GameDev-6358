@@ -8,6 +8,7 @@ public class Player_Movement : MonoBehaviour
     public Rigidbody2D playerRB;
     public Transform BulletSpawn;
     public GameObject Bullet;
+    public AudioSource footsteps;
     public float jumpForce;
     public float[] attackCD;
     public bool canJump;
@@ -25,6 +26,7 @@ public class Player_Movement : MonoBehaviour
 
     private bool[] hasGun=new bool[3] { false, false, false };
     private float speedMulti;
+    private bool playingFoot;
 
     // Start is called before the first frame update
     void Start()
@@ -35,6 +37,22 @@ public class Player_Movement : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
+        if (moving && canJump)
+        {
+            if (!playingFoot)
+            {
+                playingFoot = true;
+                footsteps.Play();
+            }
+        }
+        
+        else
+        {
+            footsteps.Stop();
+            playingFoot = false;
+        }
+
+
         if(Static_Variables.lockPlayer==true)
         {
             playerInputs.enabled = false;

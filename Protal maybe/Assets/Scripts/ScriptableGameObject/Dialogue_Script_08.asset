@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73123796daf102242aac62bd47069443, type: 3}
+  m_Name: Dialogue_Script_08
+  m_EditorClassIdentifier: 
+  charSpeaker:
+  - speakerID: 4
+    speakerName: 
+    Dialogue: "I remember, I remember everything now, I know the truth now. I know
+      what this operation room was for. This is where they would augment us. They
+      would put those metal contraptions in us, those machines. I can still feel
+      the excruciating pain of having bits and pieces of me being replaced with metal.
+      They changed who\u2026 no, what we were, at this point we were no longer humans
+      too much of us had become metal. The scars that are left on my body will always
+      be a constant reminder for what they did to me. I will always feel the pain,
+      but it is nothing compared to the mental anguish they put us through. Day after
+      day after day they would put us in these situations, no those were nightmares.
+      They had us go through countless traumas, horrific event, mind numbing choices.
+      They were trying to break us mentally. They wanted to erase who we were by
+      making us forget all for the final augmentation. Which brings us to the here
+      and now. This operating room, ne restrained to the table and that device on
+      my head. They brought us all the way to this point just so they could achieve
+      their results. For them there was no to far. That\u2019s why they were so willing
+      to augment our minds. Its why they put that machine in my head. And they knew,
+      they knew what would happen. They weren\u2019t surprised when I lost my memories,
+      they knew it would happen. That also explains why people would disappear throughout
+      phase 1. They would have their memories removed so there was no way they could
+      be re-introduced to everyone else, we would all know something was wrong. And
+      finally, it was my turn, so they put me through the operation, they caused
+      me to lose my memories, they were the cause of all the pain. \u201CThose Three\u201D."
+  - speakerID: 0
+    speakerName: David
+    Dialogue: "\u2026 You knew. You all knew I would lose my memories. How could
+      you all do this, where is your humanity? What did you all gain to justify what
+      you did to us? You all lied to us, lied to me. How do I even know that the
+      letter I got saying my sister recovered is true? I swear ill make you all pay.
+      You all destroyed who I was, were the cause of my memory loss but pretended
+      like you didn\u2019t know, like you wanted to help me recover my memories.
+      What was the purpose of all that fake concern you showed me at the beginning
+      Doctor Sarah? Its clear that none of you actually cared about any of us or
+      our well being so why? What was the point of arguing with me and getting on
+      my nerves Doctor Steven, what do you gain by risking my cooperation? Was it
+      all just a ploy to make me feel more safe and secure around you all, so I would
+      trust you? Well, congrats it worked, but not anymore. And you Doctor John are
+      the root cause of all of this, the head scientist in charge of everything.
+      Did you enjoy creating these experiments to destroy who we were? I hope you
+      all had fun with these so-called tests because I\u2019m coming for you all
+      and you will pay."
+  - speakerID: 1
+    speakerName: 
+    Dialogue: "David you don\u2019t understand what has happened to you."
+  - speakerID: 0
+    speakerName: David
+    Dialogue: I understand plenty well enough thank you.
+  - speakerID: 1
+    speakerName: 
+    Dialogue: David be reasonable here, allow us to talk and clarify what has happened
+      to you.
+  - speakerID: 0
+    speakerName: David
+    Dialogue: The time for talk has passed. I will have my revenge. I will take what
+      you made me and everything I learned and use it to destroy you. I will have
+      my revenge.
+  - speakerID: 1
+    speakerName: 
+    Dialogue: "I see, it\u2019s a shame that it has come to this Patient 8574219.
+      Activate all safety protocols and go to maximum security level. Situation Corrupted
+      Star has taken place."
+  - speakerID: 0
+    speakerName: David
+    Dialogue: "Those safety protocols won\u2019t do anything for you now its too
+      late. I won\u2019t stop till I kill you three."

@@ -5,9 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class Main_Menu : MonoBehaviour
 {
+
+    public AudioManager BGM;
     public void Play()
     {
+        BGM.Play("Theme");
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        
     }
 
     public void Quit()

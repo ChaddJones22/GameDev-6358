@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73123796daf102242aac62bd47069443, type: 3}
+  m_Name: Dialogue_Script_07
+  m_EditorClassIdentifier: 
+  charSpeaker:
+  - speakerID: 4
+    speakerName: 
+    Dialogue: "I remember this locker room, that\u2019s my locker, and that\u2019s
+      me reading the letter, the good news. Today was the day I found out that Rebecca
+      got the operation and it was a success. I must have remembered it so easily
+      because I already knew this outcome. This must mean this memory is fairly recent,
+      it probably happened some time after Phase 1 of the testing began. When I look
+      at myself it\u2019s definitely the case, I\u2019ve changed so much. I have
+      a lot more muscle mass now and I\u2019m taller now, but that makes since thinking
+      on what they had us doing. All they had us doing up to this point was trying
+      to get us into what they called \u2018the perfect form\u2019. Every day we
+      were working out and improving ourselves physically. They would rig us up to
+      these machines to measure our progress and analyze our bodies, and with that
+      intel they would construct strict individual training regiments to improve
+      our physiques. To go along with the reshaping of our bodies they were enhancing
+      our minds. In the evenings we would do various mental activities that they
+      said would improve our mental functions. With all the various training everyone
+      went through and the new drugs and treatments they were giving us it felt like
+      everyone had reached the peak of what they were capable both physically and
+      mentally. Which is why today was also the day that we began the second half
+      of phase 1, when they started the \u201CAugmentation\u201D"
+  - speakerID: 0
+    speakerName: David
+    Dialogue: Thank you for telling me the truth about my sister.
+  - speakerID: 1
+    speakerName: 
+    Dialogue: "It was the most logical option to do. Without you receiving the information
+      you wanted the continuation of the tests was unlikely at best. Lying to you
+      would also make no sense. The information happened to be the desired outcome
+      you wanted so informing you would only help, and even if it wasn\u2019t the
+      outcome lying to you would only hinder future tests and possibly turn you hostile
+      against us."
+  - speakerID: 0
+    speakerName: David
+    Dialogue: "If you had lied to me without a doubt, I would have ceased performing
+      these tests, and while I might have been angry, I doubt I would have become
+      hostile. Plus, even if I was to become hostile it\u2019s not like I could be
+      a threat. I know that after going through phase 1 of the research both physically
+      and mentally I\u2019m at my peak and that makes me very capable, but against
+      any security measures you have in place I would achieve nothing."
+  - speakerID: 3
+    speakerName: 
+    Dialogue: While yes most likely you would not be able to actually harm us in
+      any way physically, and the possibilities of you being able to harm us and/or
+      the company in other ways is even less likely we must prepare for everything.
+  - speakerID: 0
+    speakerName: David
+    Dialogue: I guess I see you point.
+  - speakerID: 2
+    speakerName: 
+    Dialogue: "It\u2019s also why we did not wish to inform you of anything before
+      you had learned it yourself. Should it have put a heavy enough strain on your
+      mental capacities or corrupt your memories there is no telling what could happen
+      to you or what you might do."
+  - speakerID: 0
+    speakerName: David
+    Dialogue: "I see, I\u2019m sorry for doing what I did but I needed to know."
+  - speakerID: 3
+    speakerName: 
+    Dialogue: We understand, and luckily there was no noticeable negative outcome
+      from it so far. It also appears that your memories are almost fully restored
+      and appear to be all intact.
+  - speakerID: 0
+    speakerName: David
+    Dialogue: Yeah. On the topic of memories, I was curious as to why when they are
+      restored, I view them from an outside perspective looking in instead of from
+      the perspective of myself in the memory.
+  - speakerID: 3
+    speakerName: 
+    Dialogue: "That is\u2026"
+  - speakerID: 2
+    speakerName: 
+    Dialogue: "A difficult question to answer. Why we don\u2019t know the absolute
+      reason as to why it is perceived that way, we do have 1 very likely theory.
+      However, telling you this theory is something we cannot do."
+  - speakerID: 0
+    speakerName: David
+    Dialogue: "Why? Wouldn\u2019t informing me on how these things work help me better
+      understand and possibly recover my memories?"
+  - speakerID: 3
+    speakerName: 
+    Dialogue: That is unlikely.
+  - speakerID: 1
+    speakerName: 
+    Dialogue: To appease your growing curiosity we will give you a very simplified
+      version of the theory. We believe that due to the training you went through
+      for both your body and mind as well as the augmentations have altered how your
+      brain and memory function. As such it is harder to see the memory from the
+      perspective of who you were since you are so different know. Plus, with your
+      damaged memory and improved mental capacity you may subconsciously trying to
+      create/remember these memories in the form of an outsider where you have more
+      information.
+  - speakerID: 0
+    speakerName: David
+    Dialogue: "So, because I\u2019m so different from who I was before its harder
+      for me to see my memories from my old self\u2019s perspective. And with my
+      mind being enhanced I am better replicating the memory in a form where it is
+      easier to understand. Is that correct?"
+  - speakerID: 1
+    speakerName: 
+    Dialogue: In summary yes.
+  - speakerID: 0
+    speakerName: David
+    Dialogue: "Okay then. With where I\u2019m at now I feel more comfortable continuing.
+      I also feel like I\u2019m so close to recovering everything soon."
+  - speakerID: 1
+    speakerName: 
+    Dialogue: That is useful information to know. We should continue then but we
+      must be cautious.

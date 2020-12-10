@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73123796daf102242aac62bd47069443, type: 3}
+  m_Name: Dialogue_Script_02
+  m_EditorClassIdentifier: 
+  charSpeaker:
+  - speakerID: 4
+    speakerName: 
+    Dialogue: "I\u2019m remembering something again, hopefully it\u2019s more than
+      a few years of my childhood and I learn more of who I am. Wait, what is this?
+      I\u2019m just sitting there watching TV, what kind of memory is this it tells
+      me nothing. Well at least I can see what I look like and damn am I a strapping
+      young man, with a face like that I could have easily become a model, I wonder
+      why I didn\u2019t? I seem really engaged in the TV I wonder what I\u2019m watching?
+      The news? Why would I be so\u2026 I remember at this time a company less than
+      a decade old was making huge waves in the technology industry, they were completely
+      re-inventing how the world functioned. No wonder I\u2019m so engaged they\u2019re
+      also mentioning a new device they just released, since its coming from a company
+      that\u2019s changing the world anyone would want to know. What\u2019s that
+      I\u2019m holding? Is that my report card? Holy smokes I\u2019m good looking
+      and super intelligent I\u2019m a real catch. With grades like that I could
+      probably achieve whatever goal I wanted for myse... I see now, this explains
+      why I didn\u2019t become a model I had a much bigger goal. It looks like the
+      news clip is about to end and so is the memory. While I did learn more about
+      myself it wasn\u2019t much, hopefully I\u2019ll learn more next time. \u201CProvidence
+      Technology\u201D. What?"
+  - speakerID: 3
+    speakerName: Scientist 3
+    Dialogue: "David can you hear us? \u2026 I think something is wrong he\u2019s
+      not responding."
+  - speakerID: 0
+    speakerName: David
+    Dialogue: "I\u2019m here, sorry I was remembering more of my past. And before
+      you ask, no I didn\u2019t remember everything just a portion again."
+  - speakerID: 2
+    speakerName: Scientist 2
+    Dialogue: Anything useful this time or more fluff that serves no purpose?
+  - speakerID: 0
+    speakerName: David
+    Dialogue: Everything serves a purpose in some form for someone so while it may
+      seem useless too you me remembering my past is very important and useful to
+      me, I figured someone as smart as you would know that but I guess not.
+  - speakerID: 3
+    speakerName: Scientist 3
+    Dialogue: What did you remember?
+  - speakerID: 0
+    speakerName: David
+    Dialogue: I saw a scene from when I was in high school and I remember a lot of
+      what happened from my childhood up till then.
+  - speakerID: 1
+    speakerName: Scientist 1
+    Dialogue: "You saw a scene? The memories don\u2019t just flood back to you all
+      at once? How do you remember everything and what exactly do you see?"
+  - speakerID: 0
+    speakerName: David
+    Dialogue: Slow down buddy you seem like your about to bust out of your seat there
+  - speakerID: 1
+    speakerName: Scientist 1
+    Dialogue: I apologize I lost myself in my excitement. Would you be able to answer
+      my questions?
+  - speakerID: 0
+    speakerName: David
+    Dialogue: "Sure, no problem. When I regain my memories, I see a scene, a memory
+      from my past and I observe from an outside perspective. The memory doesn\u2019t
+      last long and once it ends, I wake up and then I remember a whole bunch of
+      other stuff up too that memory and a little bit after."
+  - speakerID: 3
+    speakerName: Scientist 3
+    Dialogue: So, would you say that you experience a memory from an out of body
+      experience and once it concludes other memories up to that point come back
+      to you and you even see a few memories beyond that main one?
+  - speakerID: 0
+    speakerName: David
+    Dialogue: That sounds about right.
+  - speakerID: 3
+    speakerName: Scientist 3
+    Dialogue: I wonder why only one memory and why do you see that specific memory,
+      could you tell us about this memory?
+  - speakerID: 0
+    speakerName: David
+    Dialogue: "There isn\u2019t much to tell I learned more about myself, specifically
+      what my dream was."
+  - speakerID: 2
+    speakerName: Scientist 2
+    Dialogue: "Since it\u2019s your dream I\u2019m absolutely positive it must be
+      something grand. What is your \u2018dream\u2019 then?"
+  - speakerID: 0
+    speakerName: David
+    Dialogue: "\u2026 It actually is quite grand I wanted to work for a company that
+      was changing the world Providence Technology as a lead scientist."
+  - speakerID: 3
+    speakerName: Scientist 3
+    Dialogue: "\u2026 What a pleasant dream."
+  - speakerID: 0
+    speakerName: David
+    Dialogue: "Thanks, but we should probably continue on I\u2019d like to learn
+      more. Is there anything I need to know for the next test?"
+  - speakerID: 3
+    speakerName: Scientist 3
+    Dialogue: Yes, in the next test you will be getting a new weapon a shotgun with
+      a unique feature in its kick. With this shotgun you are able to propel yourself
+      in any direction you could use it to jump higher, farther, or fall faster.
+  - speakerID: 0
+    speakerName: David
+    Dialogue: So, this shotgun basically allows me to rocket... or I guess shotgun
+      jump then? What kind of videogame type nonsense are you guys making?
+  - speakerID: 2
+    speakerName: Scientist 2
+    Dialogue: " If you want to see it in such a simple manner then yes it allows
+      you to \u201CShotgun Jump\u201D"
+  - speakerID: 0
+    speakerName: David
+    Dialogue: Cool, I guess. My guess is I use and interact with it the same way
+      as the pistol?
+  - speakerID: 3
+    speakerName: Scientist 3
+    Dialogue: "That is correct but you would press the key \u20182\u2019 instead
+      for the second slot and on the topic of your pistol it has been taken away."
+  - speakerID: 0
+    speakerName: David
+    Dialogue: What? Why? And as a matter of fact, how?
+  - speakerID: 1
+    speakerName: Scientist 1
+    Dialogue: We took you pistol away because we want you to go into each level with
+      nothing so we can have the purest results. And all tools/weapons picked up
+      through the test are taken away automatically when you enter this room.
+  - speakerID: 0
+    speakerName: David
+    Dialogue: "Good to know, I guess I\u2019m off then for the next test. Let\u2019s
+      a go"

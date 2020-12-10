@@ -17,6 +17,7 @@ public class Player_Inputs : MonoBehaviour
 
     public AudioClip[] gunSounds;
     public AudioSource Audio;
+    private bool playingFoot;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,6 +25,7 @@ public class Player_Inputs : MonoBehaviour
         Cursor.visible = false;
         equipNum = 0;
         storedEquip = equipNum;
+        
     }
 
     // Update is called once per frame
@@ -37,6 +39,7 @@ public class Player_Inputs : MonoBehaviour
         storedEquip = equipNum;
         //Checks for horizontal inputs
         xInput = Input.GetAxis("Horizontal");
+        
 
         //Controls Jumping
         if(Input.GetKeyDown(KeyCode.Space))

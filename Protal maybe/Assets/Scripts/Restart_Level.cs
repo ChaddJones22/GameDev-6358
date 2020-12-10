@@ -31,8 +31,10 @@ public class Restart_Level : MonoBehaviour
         {
             StartReset = true;
         }
-
-        
+        if (Input.GetKey(KeyCode.E) && Input.GetKey(KeyCode.N) && Input.GetKey(KeyCode.D))
+        {
+            StartEnd = true;
+        }
 
     }
 

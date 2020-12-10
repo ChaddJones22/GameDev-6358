@@ -1,0 +1,160 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73123796daf102242aac62bd47069443, type: 3}
+  m_Name: Dialogue_Script_09
+  m_EditorClassIdentifier: 
+  charSpeaker:
+  - speakerID: 1
+    speakerName: 
+    Dialogue: Patient 8574219 its such a shame that it has come to this. We had such
+      high hopes for you. We finally thought we had found the solution but it appears
+      we were wrong.
+  - speakerID: 0
+    speakerName: David
+    Dialogue: "You were dead wrong and now you\u2019ll pay, I\u2019m coming for you
+      three and once I find you, that\u2019s the end of the line."
+  - speakerID: 1
+    speakerName: 
+    Dialogue: You were so close to the end, you had one final test left, but in the
+      end you failed. Perhaps we were expecting too much.
+  - speakerID: 0
+    speakerName: David
+    Dialogue: Expecting too much? Expecting too much? After what you all did to me
+      to everyone how could you expect anything else but this outcome?
+  - speakerID: 1
+    speakerName: 
+    Dialogue: No, Patient 8574219, we have done none of what you think we have.
+  - speakerID: 0
+    speakerName: David
+    Dialogue: Bullshit. I remember everything now, I remember.
+  - speakerID: 1
+    speakerName: 
+    Dialogue: "No, you remember someone else\u2019s memories."
+  - speakerID: 0
+    speakerName: David
+    Dialogue: What the hell are you talking about?
+  - speakerID: 1
+    speakerName: 
+    Dialogue: The issue with machines is that they have no natural morality. We can
+      tell them what is right and wrong but they would never learn that for themselves
+      without heavy influence and assistance from humans. But even then, the morality
+      that would be imprinted onto the machine would have been the artificially cultivated
+      morality of the involved humans. We wanted true, natural morality. No one that
+      was cultivated.
+  - speakerID: 0
+    speakerName: David
+    Dialogue: "So what, you put me through those horrid simulation just to bring
+      out my morality and copy it? Then why erase my memories? Why do all that?Those
+      simulations weren\u2019t meant to copy your morality but to see the morality
+      of the person in the simulation to see if he would be a good candidate as well
+      as bring all his morality to the surface for him to see who he truly was."
+  - speakerID: 1
+    speakerName: 
+    Dialogue: "Those simulations weren\u2019t meant to copy your morality but to
+      see the morality of the person in the simulation to see if he would be a good
+      candidate as well as bring all his morality to the surface for him to see who
+      he truly was."
+  - speakerID: 0
+    speakerName: David
+    Dialogue: "And I met all your criteria so I was chosen. Well, it sucks to be
+      you because clearly you didn\u2019t know my morality well enough because now,
+      after everything you put me through, I will stop at nothing to kill you."
+  - speakerID: 1
+    speakerName: 
+    Dialogue: And what exactly did we do?
+  - speakerID: 0
+    speakerName: David
+    Dialogue: "Don\u2019t act dumb. You have scarred my body permanently with your
+      physical augmentations, tortured my mind with those hells, and then you took
+      away everything I was by stealing my memories."
+  - speakerID: 1
+    speakerName: 
+    Dialogue: But sadly, none of that is the truth.
+  - speakerID: 0
+    speakerName: David
+    Dialogue: What? What nonsense are you spouting now I remember what you did to
+      me.
+  - speakerID: 1
+    speakerName: 
+    Dialogue: No, you remember what we want you to remember.
+  - speakerID: 0
+    speakerName: David
+    Dialogue: Huh?
+  - speakerID: 1
+    speakerName: 
+    Dialogue: "This test was one of morality. We wanted to find someone with a sense
+      of morality and rationality that is a shining example of an upstanding citizen,
+      of a beacon of humanity. We saw that David possessed that level of morality
+      and rationality. But people can change, they can lose or throw away their morality
+      in the most dire and severe situations. We needed to see if above all other
+      things if with David\u2019s personality his morality would not change regardless.
+      So, we altered your memories to make you believe that what we put you through
+      was hell. IN reality while the situations could be a bit much, they never crossed
+      the line."
+  - speakerID: 0
+    speakerName: David
+    Dialogue: Lies, its all lies. If that truly was the case then why augment my
+      body in such a way it would be scarred for life.
+  - speakerID: 1
+    speakerName: 
+    Dialogue: "But you aren\u2019t actually scarred. You have been operating at a
+      capacity beyond your bodies maximum normal level thanks to the technology.
+      Even with the augmentations allowing you to do that if your body was truly
+      as scarred as you remember it to be then there would still be some issues that
+      the augmentations couldn\u2019t counteract."
+  - speakerID: 0
+    speakerName: David
+    Dialogue: "Even if I was to believe you, which I don\u2019t, that doesn\u2019t
+      justify the alteration of my memories nor making me forget who I am. You can\u2019t
+      just treat humans like that."
+  - speakerID: 1
+    speakerName: 
+    Dialogue: "We didn\u2019t treat humans like that. Afterall you\u2019re not real."
+  - speakerID: 0
+    speakerName: David
+    Dialogue: What?
+  - speakerID: 1
+    speakerName: 
+    Dialogue: The whole point of this research was to copy the morality of a human
+      onto a machine. What you think of us as augmenting your brain and removing
+      your memories was actually just us copying the memories, morality, personality,
+      everything that David was into a form that could be imprinted onto a machine.
+      You are that machine Patient 8574219.
+  - speakerID: 0
+    speakerName: Patient 8574219
+    Dialogue: "No, you\u2019re lying, that\u2019s not true. I\u2019m real, I feel,
+      I have memories. I\u2019m not just some machine I\u2019m David."
+  - speakerID: 1
+    speakerName: 
+    Dialogue: No, David has already gone home. Once we copied his brain, we sent
+      him home, we no longer needed him. At this point he is probably at home with
+      his younger sister since her recovery.
+  - speakerID: 0
+    speakerName: Patient 8574219
+    Dialogue: Its all lies, shut up. I am real, I exist.
+  - speakerID: 1
+    speakerName: 
+    Dialogue: "No, you aren\u2019t and you don\u2019t exist. That was the whole point
+      of this variation, XS10S. It\u2019s a play on the word existence, throughout
+      this test as we returned portions of your memories, we also left clues that
+      would let you know the true nature of your existence but sadly you didn\u2019t
+      figure it out."
+  - speakerID: 0
+    speakerName: Patient 8574219
+    Dialogue: "I\u2019m real, my name is David, I won\u2019t listen, it\u2019s all
+      lies."
+  - speakerID: 1
+    speakerName: 
+    Dialogue: "It\u2019s a shame that it has come to this, but I\u2019m afraid we
+      no longer have any use for you and you have shown clear hostility and are too
+      dangerous to be allowed to continue functioning. I\u2019m sorry but we will
+      have to terminate you, goodbye Program 8574219."

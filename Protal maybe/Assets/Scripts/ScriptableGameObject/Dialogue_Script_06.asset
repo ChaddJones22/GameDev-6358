@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73123796daf102242aac62bd47069443, type: 3}
+  m_Name: Dialogue_Script_06
+  m_EditorClassIdentifier: 
+  charSpeaker:
+  - speakerID: 4
+    speakerName: 
+    Dialogue: "Please let me know what happens next. Tell me she\u2019s okay. I need
+      to know how she is. What? Where is this? And who is that man sitting across
+      from me. He just handed me a piece of paper what\u2019s on it? It mentions
+      a research study, and something about being a test subject, it also says the
+      tests will be conducted by\u2026 Providence Technology? I wanted to work there
+      but that was as a researcher not as a research subject. Why am I being offered
+      a position as a test subject, and why the hell am I signing it so quickly?
+      There\u2019s no way I could have read through the contract so quickly. Speaking
+      of reading through the contract there is a bunch of shady stuff that would
+      make any sane person flat out reject the offer. With that being the case why
+      would I sign it soooooo wholly smokes that\u2019s a shit ton of cash. I needed
+      the money for the operations, after the accident the doctors said she would
+      need multiple operations and we didn\u2019t have enough money. No wonder I
+      would sign such a shady contract I needed that money more than anything. I
+      swore that I would protect her, and I would do anything to keep her safe. Even
+      if that means \u201CMaking A Deal With The Devil\u201D."
+  - speakerID: 0
+    speakerName: David
+    Dialogue: "Why didn\u2019t you all tell me?"
+  - speakerID: 2
+    speakerName: 
+    Dialogue: Excuse us? What do you mean?
+  - speakerID: 0
+    speakerName: David
+    Dialogue: "You all heard me say earlier that my dream was to work at Providence
+      Technology so why didn\u2019t you tell me that you were them?"
+  - speakerID: 3
+    speakerName: 
+    Dialogue: Revealing Information to you in that manner could have resulted in
+      a mental shock that could have resulted in serious damage so we decided that
+      the best course of action was to let you remember on your own. Can you tell
+      us what you do remember?
+  - speakerID: 0
+    speakerName: David
+    Dialogue: "\u2026 Yeah. I remember everything up to the point of me signing the
+      contract that I would participate in this research study so my sister could
+      get the money needed to have the operation. Speaking of that how is my sister?
+      Did she get the money? Was she able to receive the operation?"
+  - speakerID: 3
+    speakerName: 
+    Dialogue: As we said earlier informing you of things that you will/should come
+      to remember before you actually do could have some serious conseq-
+  - speakerID: 0
+    speakerName: David
+    Dialogue: Damn the consequences you tell me what happened to her or I walk away
+      right now.
+  - speakerID: 3
+    speakerName: 
+    Dialogue: As I said-
+  - speakerID: 1
+    speakerName: David
+    Dialogue: Your sister got the operation David and it was a success.
+  - speakerID: 0
+    speakerName: David
+    Dialogue: Oh, thank God.
+  - speakerID: 2
+    speakerName: 
+    Dialogue: "Are you sure we should be telling him that, we don\u2019t know what
+      the consequences could be or how this will affect him and the results."
+  - speakerID: 1
+    speakerName: 
+    Dialogue: Then only way anything gets done is if we do this, and should there
+      be complications in the future we will deal with them.
+  - speakerID: 2
+    speakerName: 
+    Dialogue: "I hope you know what you\u2019re doing."
+  - speakerID: 1
+    speakerName: 
+    Dialogue: So do I. However, David, just because you have been given knowledge
+      on some of your most recent memories, we recommend you continue the tests until-
+  - speakerID: 0
+    speakerName: David
+    Dialogue: "Don\u2019t worry I\u2019m still going to finish the tests. I signed
+      that contract and since you all upheld yours, I will uphold mine. Plus, I still
+      want the rest of my memories."
+  - speakerID: 1
+    speakerName: 
+    Dialogue: Then we should continue.

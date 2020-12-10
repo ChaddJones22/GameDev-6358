@@ -1,0 +1,208 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73123796daf102242aac62bd47069443, type: 3}
+  m_Name: Dialogue_Script_00
+  m_EditorClassIdentifier: 
+  charSpeaker:
+  - speakerID: 0
+    speakerName: ???
+    Dialogue: "Ugh\u2026 What\u2019s going on, what\u2019s happened to me? AAARRGH
+      *Screams in pain* My head\u2026 Argh, it feels\u2026 it feels like my\u2026
+      my head\u2026 is splitting open. *Pain subsides* What *Breathes deeply* What
+      was that about"
+  - speakerID: 1
+    speakerName: Scientist 1
+    Dialogue: Your finally awake, good, that means we can finally begin.
+  - speakerID: 0
+    speakerName: ???
+    Dialogue: "Who are you? Where am I? \u2026 W-Who am I? Tell me what\u2019s going
+      on"
+  - speakerID: 1
+    speakerName: Scientist 1
+    Dialogue: "You don\u2019t remember who you are? What do you remember? Can you
+      recall memories from your childhood?"
+  - speakerID: 0
+    speakerName: ???
+    Dialogue: "I just asked you who I am so of course I don\u2019t know who I am
+      genius, common sense where have you gone."
+  - speakerID: 2
+    speakerName: Scientist 2
+    Dialogue: Your inane remarks are unnecessary just answer the questions you are
+      asked and keep all pointless comments to yourself.
+  - speakerID: 0
+    speakerName: ???
+    Dialogue: "Well, soooorry I\u2019ll remember that for the next time."
+  - speakerID: 2
+    speakerName: Scientist 2
+    Dialogue: Just answer the damn questions. What do you remember and what memories
+      can you recall?
+  - speakerID: 0
+    speakerName: ???
+    Dialogue: "Fine Jackass I\u2019ll see what I can remember\u2026 I can remember
+      some basics skill like how to read, write, do math and some other stuff"
+  - speakerID: 3
+    speakerName: Scientist 3
+    Dialogue: What about your memories, can you recall any of those? Specifically,
+      from when you were a child or a teenager perhaps? Memories from when you were
+      growing up.
+  - speakerID: 0
+    speakerName: ???
+    Dialogue: "How quaint, what a nice polite lady you are. You\u2019re a breath
+      of fresh air compared to that old curmudgeon."
+  - speakerID: 2
+    speakerName: Scientist 2
+    Dialogue: Humph
+  - speakerID: 0
+    speakerName: ???
+    Dialogue: "I\u2019ll see what I can recall right now\u2026 SHIT\u2026 Argh"
+  - speakerID: 3
+    speakerName: Scientist 3
+    Dialogue: "What\u2019s wrong?"
+  - speakerID: 0
+    speakerName: ???
+    Dialogue: "When I tried to recall some memories from my childhood it felt like
+      my head was being split open with a knife. I remember seeing some symbols of
+      some kind, I think some were numbers but I couldn\u2019t tell because the pain
+      came right then."
+  - speakerID: 1
+    speakerName: Scientist 1
+    Dialogue: How peculiar
+  - speakerID: 3
+    speakerName: Scientist 3
+    Dialogue: "XXXX this has never happened before or at least not to this degree.
+      We have had instances of there being some issues, even some where people have
+      formed gaps in their memory but they didn\u2019t lose it entirely. What should
+      we do?"
+  - speakerID: 0
+    speakerName: ???
+    Dialogue: (XXXX I know she was calling him by name but why did it sound like
+      gibberish)
+  - speakerID: 2
+    speakerName: Scientist 2
+    Dialogue: "What do you mean \u2018what should we do?\u2019? Its obvious that
+      we continue at full force. Although his personality leaves much to be desired,
+      the fact that he is a blank slate right now means that we could achieve tremendous
+      results from the experiments with absolute 0 internal interference. He just
+      might be the key we need to finish this. Why would you even ask XXXX that question
+      XXXXX, if you are- "
+  - speakerID: 1
+    speakerName: Scientist 1
+    Dialogue: "XXXXXX. That\u2019s enough, I don\u2019t believe that XXXXX was having
+      any doubts I think she was just curious on how we should and are going to proceed
+      given this unfamiliar circumstance"
+  - speakerID: 2
+    speakerName: Scientist 2
+    Dialogue: I apologize XXXX I got heated given the situation and spoke rashly.
+      I guess I also owe you an apology as well XXXXX
+  - speakerID: 0
+    speakerName: ???
+    Dialogue: "What a 10 out of 10 apology right there, I don\u2019t think I\u2019ve
+      ever heard a more sincere apology, brings me to tears."
+  - speakerID: 2
+    speakerName: Scientist 2
+    Dialogue: Scratch what I said before he is absolutely intolerable just stop the
+      experiments now and kick him out. It will save us time and sanity.
+  - speakerID: 1
+    speakerName: Scientist 1
+    Dialogue: "XXXXXX calm down, you\u2019re letting him bait you too easily. We
+      will continue with the experiment\u2026 variation XS10S"
+  - speakerID: 3
+    speakerName: Scientist 3
+    Dialogue: Are you sure that now, with him, is the most appropriate time to do
+      this XXXX?
+  - speakerID: 1
+    speakerName: Scientist 1
+    Dialogue: "Yes, I\u2019m absolutely positive that now is the time to do this
+      variation"
+  - speakerID: 0
+    speakerName: ???
+    Dialogue: I hate to be so rude and interrupt the conversation that you all are
+      clearly having about me so politely in front of me but I would very much like
+      to be included in that conversation.
+  - speakerID: 1
+    speakerName: Scientist 1
+    Dialogue: "Yes, Mr\u2026  Patient 8574219 how are you feeling right now?"
+  - speakerID: 0
+    speakerName: Patient 8574219
+    Dialogue: "(Really, you\u2019re not going to even tell me my name\u2026 I might
+      as well not ask because they probably won\u2019t tell me either way) *sigh*
+      Surprisingly I feel really good besides the pain I felt earlier. All my senses
+      feel sharper and my body feels more responsive. It feels like this body isn\u2019t
+      the one I should have but the body that is meant for me it feels weird but
+      not in a bad way."
+  - speakerID: 1
+    speakerName: Scientist 1
+    Dialogue: "Good it seems that there are no other issues from the initial treatments.
+      Since that is the case, I will explain what\u2019s happening to you. You initially
+      signed up for our experiment in which we try to improve the capabilities of
+      a human being in all capacities. From the initial stage we were able to find
+      a formula that allowed us to alter the state of a person\u2019s body and increase
+      many of its features resulting in sharper senses and a body that feels more
+      natural. However, there are some issues these alterations tend to cause one
+      of which being the loss of memories."
+  - speakerID: 0
+    speakerName: Patient 8574219
+    Dialogue: "So, it\u2019s because I took part in those alterations, I lost my
+      memories."
+  - speakerID: 1
+    speakerName: Scientist 1
+    Dialogue: Indeed, however once we found out there were side effects, we began
+      looking for ways to reverse the adverse effects. We found out that the best
+      way to reverse the negative effects would be to have the patient complete certain
+      tasks that tested their mind and put their new found physical abilities to
+      use.
+  - speakerID: 3
+    speakerName: Scientist 3
+    Dialogue: This was fortunate for us because that was most of what the second
+      phase of the experiment is focused on is having the patient complete various
+      tasks to increase their mental capacity and develop a more advanced brain.
+  - speakerID: 0
+    speakerName: Patient 8574219
+    Dialogue: So basically, as long as I complete the trials for the second phase
+      my memories should return?
+  - speakerID: 2
+    speakerName: Scientist 2
+    Dialogue: Yes, as long as you do what we say and complete the tasks we assign
+      to you like a good little boy you will be able to regain your memories, how
+      fortunate for you. But more importantly the data and information we will gather
+      from you will be most useful for us which is fortunate for us and all of mankind.
+  - speakerID: 0
+    speakerName: Patient 8574219
+    Dialogue: "If it means ruining your day, I might just forgo my memories. But
+      how fortunate for you I really want my memories back. Based on your conversation
+      it\u2019s clear that I provide you all with a very unique and special situation,
+      what makes me so special."
+  - speakerID: 1
+    speakerName: Scientist 1
+    Dialogue: Based off of past result people who have lost portions of their memory
+      tend to give us the best results and push us one step closer to completing
+      phase 2.
+  - speakerID: 3
+    speakerName: Scientist 3
+    Dialogue: We believe that since you have fully lost your memories that the results,
+      we can get from your trials will be enough for us to complete phase 2 and move
+      to phase 3.
+  - speakerID: 0
+    speakerName: Patient 8574219
+    Dialogue: "So, I\u2019m the missing puzzle piece you all need to reach your solution?"
+  - speakerID: 3
+    speakerName: Scientist 3
+    Dialogue: Precisely
+  - speakerID: 0
+    speakerName: Patient 8574219
+    Dialogue: "If it means getting my memories back let\u2019s do this. Leroy Jenkins"
+  - speakerID: 2
+    speakerName: Scientist 2
+    Dialogue: Mama Mia
+  - speakerID: 0
+    speakerName: Patient 8574219
+    Dialogue: Here we go again
