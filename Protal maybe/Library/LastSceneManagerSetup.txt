@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/StageBlue.unity
+- path: Assets/Scenes/THE END.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
