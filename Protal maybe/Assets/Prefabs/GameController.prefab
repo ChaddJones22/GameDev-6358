@@ -296,7 +296,7 @@ PrefabInstance:
     - target: {fileID: 2020930804337741945, guid: 0c6720019aaa6e347a65e16eb6cd94f7,
         type: 3}
       propertyPath: gunSounds.Array.size
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2020930804337741945, guid: 0c6720019aaa6e347a65e16eb6cd94f7,
         type: 3}
@@ -318,6 +318,11 @@ PrefabInstance:
       propertyPath: Audio
       value: 
       objectReference: {fileID: 943271948}
+    - target: {fileID: 2020930804337741945, guid: 0c6720019aaa6e347a65e16eb6cd94f7,
+        type: 3}
+      propertyPath: gunSounds.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 89b8da53869f2a847addab769c76e0c0, type: 3}
     - target: {fileID: 4130525939371613219, guid: 0c6720019aaa6e347a65e16eb6cd94f7,
         type: 3}
       propertyPath: m_LocalPosition.x

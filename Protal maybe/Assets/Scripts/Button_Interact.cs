@@ -6,12 +6,14 @@ public class Button_Interact : MonoBehaviour
 {
 
     public GameObject ConnectedEvent;
+    public AudioSource activateSound;
     public bool PlayerInteractable;
     public bool continuos;
     public bool NotNormal;
 
     public bool multiEvent;
     public GameObject[] ConnectedMultiEvents;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -31,8 +33,10 @@ public class Button_Interact : MonoBehaviour
         if ((collision.gameObject.tag == "Bullet" || collision.gameObject.tag=="Box") && !NotNormal)
         {
             Debug.Log("Contact");
+            activateSound.Play();
             if (multiEvent)
             {
+
                 for (int x = 0; x < ConnectedMultiEvents.Length; x++)
                 {
                     ConnectedMultiEvents[x].GetComponent<BaseEvent>().ActivateEvent();
@@ -47,11 +51,13 @@ public class Button_Interact : MonoBehaviour
         else if(collision.gameObject.tag == "Box" && NotNormal)
         {
             Debug.Log("Contact");
+            activateSound.Play();
             ConnectedEvent.GetComponent<BaseEvent>().ActivateEvent();
         }
 
         if(PlayerInteractable && collision.gameObject.tag=="Player")
         {
+            activateSound.Play();
             if (multiEvent)
             {
                 for (int x = 0; x < ConnectedMultiEvents.Length; x++)

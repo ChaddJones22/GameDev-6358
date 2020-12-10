@@ -24,7 +24,6 @@ public class Ui_Canvas : MonoBehaviour
     private string CurrentText;
     private string pName;
     private int ID;
-    private bool playOnce;
 
     void Start()
     {
@@ -53,7 +52,7 @@ public class Ui_Canvas : MonoBehaviour
 
     IEnumerator fadeIn()
     {
-        if(!playOnce)
+        if(!Static_Variables.playonce)
         {
             dialogueIndex = loadDialogue.getLength();
             bool breakloop = false;
@@ -127,7 +126,7 @@ public class Ui_Canvas : MonoBehaviour
             {
                 dialouge[ID].transform.parent.gameObject.SetActive(false);
             }
-            playOnce = true;
+            Static_Variables.playonce = true;
         }
         
 
@@ -152,6 +151,7 @@ public class Ui_Canvas : MonoBehaviour
 
     IEnumerator fadeOut()
     {
+
         blackPanel.enabled = true;
         for (float x = 0; x <= 1; x = x + .1f)
         {
@@ -175,7 +175,8 @@ public class Ui_Canvas : MonoBehaviour
                     }
                 case false:
                     {
-                        if(stageEnd)
+                        Static_Variables.playonce = false;
+                        if (stageEnd)
                         {
                             dialogueIndex = loadEndDialogue.getLength();
                             bool breakloop = false;

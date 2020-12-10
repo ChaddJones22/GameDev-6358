@@ -35,6 +35,8 @@ public class Player_Inputs : MonoBehaviour
         if (equipNum != storedEquip)
         {
             checkSwap = true;
+            Audio.clip = gunSounds[3];
+            Audio.Play();
         }
         storedEquip = equipNum;
         //Checks for horizontal inputs
