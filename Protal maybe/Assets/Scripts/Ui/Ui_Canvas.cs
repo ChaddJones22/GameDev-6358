@@ -14,6 +14,7 @@ public class Ui_Canvas : MonoBehaviour
     public Dialogue_Script_Scriptable loadDialogue;
     public Dialogue_Script_Scriptable loadEndDialogue;
     public int dialogueIndex;
+    public AudioSource beeps;
 
 
     private bool fadeInAndOut = false;
@@ -81,9 +82,14 @@ public class Ui_Canvas : MonoBehaviour
                     }
                     else
                     {
+                        
+                        if (t < textToType.Length &&  textToType[t] != ' ')
+                        {
+                            beeps.Play();
+                        }
                         CurrentText = textToType.Substring(0, t);
                         dialouge[ID].text = CurrentText;
-                        yield return new WaitForSecondsRealtime(0.015f);
+                        yield return new WaitForSecondsRealtime(0.02f);
 
                     }
 
@@ -205,9 +211,14 @@ public class Ui_Canvas : MonoBehaviour
                                     }
                                     else
                                     {
+                                        if (t < textToType.Length && textToType[t] != ' ')
+                                        {
+                                            beeps.Play();
+                                        }
+
                                         CurrentText = textToType.Substring(0, t);
                                         dialouge[ID].text = CurrentText;
-                                        yield return new WaitForSecondsRealtime(0.015f);
+                                        yield return new WaitForSecondsRealtime(0.02f);
 
                                     }
 
