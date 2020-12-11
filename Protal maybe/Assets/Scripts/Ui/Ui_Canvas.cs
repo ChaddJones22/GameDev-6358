@@ -102,11 +102,12 @@ public class Ui_Canvas : MonoBehaviour
                     break;
                 }
 
-                if (!Input.GetKey("e"))
+                while(!Input.GetKey("e"))
                 {
-                    yield return new WaitForSecondsRealtime(1.3f);
+                    yield return null;
                 }
 
+                yield return new WaitForSecondsRealtime(0.1f);
                 if (i != dialogueIndex - 1)
                 {
                     if (ID == 4)
@@ -159,7 +160,7 @@ public class Ui_Canvas : MonoBehaviour
     {
 
         blackPanel.enabled = true;
-        for (float x = 0; x <= 1; x = x + .1f)
+        for (float x = 0; x <= 1; x = x + .2f)
         {
             Debug.Log(x);
             var tempColor = blackPanel.color;

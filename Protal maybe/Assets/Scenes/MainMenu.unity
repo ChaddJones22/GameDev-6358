@@ -3104,7 +3104,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: "W,A,S,D To move\t      Aim with mouse\n1 for handgun\t      \t  Leftclick
     To shoot\n2 for shotgun\t\t  E to proceed story\n3for machinegun           End
-    to skip story"
+    to skip story\nP to restart stage"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
   m_sharedMaterial: {fileID: 2147374, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
